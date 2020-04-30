@@ -1,5 +1,5 @@
 # Koine Reported Speech Comparison
-A Look at what things might be needed to annotate a corpus of New Testament Greek for Reported Speech Events.
+A look at what things might be needed to annotate a corpus of New Testament Greek for _Reported Speech Events_.
 
 ## Trajectory
 
@@ -14,7 +14,7 @@ Assumptions:
 3. There is a great deal of typological variation between languages in how they handle various types of highlighting devices or backgrounding elements. This variation can lead to confusion in the translation process, especially when translators are multi-lingual and focused on syntax, orthography, and a variety of other factors which may pull their attention away from the task of focusing on the stylistic naturalness of the target language which matches the stylistic naturalness of the language in which the resource was first written.
 4. Levinsohn reports that Theological commentaries sparsely address the issue of greek discourse patterns.
 5. It takes **three** annotated corpora to do this kind of check. 1) it takes an annotated Greek text of the New Testament. 2) It takes an annotated (for the same kinds of features) corpus in the target language. 3) It takes a New Testament translation in the target language.
-6. The project is too big for me to do alone; more people than just me will benefit from the out comes.
+6. The project is too big for me to do alone; more people than just me will benefit from the outcomes.
 7. Reported speech is a good place to start.
 
 A researcher in possession of all three corpora mentioned in # 5 should be able to quickly look at the output of the corpus in the target language, and see what the patterns of the target language are in various contexts.
@@ -79,7 +79,11 @@ Note that `Speech Orienters` would still be marked as Narration! DiscourseQuoteU
 
 Dooley and Levinsohn mention another dynamic in relation to quotes. They use the highly technical term `Purpose` to describe this dynamic, but don't name the sub-kinds of purpose. The dynamic is a function, not a syntax. However some languages may relegate the function to a specific syntactic construction:  In European languages the _Direct quote_  usually expresses - exactly what was said as said by the original source, where as the _Indirect quote_ - expresses the second sub-kind as a quote said with commentary. Such as Jesus' reading from Luke 4:18-19. I don't know that my skill in Koine Greek is up to the task on determining these. I don't even know what literature to look at to see if anyone has written about this for Koine Greek.
 
+### Clause level semantic roles
+
 It would be helpful to also be able to apply the following semantic categories, if they are not already available: `clauseRole: Agent, Theme, Loc`.
+
+### Internal referencing
 
 I need to have some way to indicate Antecedent and pronoun linkage. I see this as needing to tag _Antecedents_ and _Pronouns_ in two separate ways. First they need an ID which will link them to each other with a relationship. Second they need link to an absolute concept entity. This concept entity may also need to be linked to another concept entity via a dictionary, or I need a property which allows for Metaphorical representation.  For instance: "You brood of vipers." _Vipers_ is an entity, but _brood of vipers_ is a different entity as is also the metaphorical concept that stands behind the phrase. I t might be appropriate to link  _vipers_ by itself to an entity id with an attribute of animals, but it would be better suited for research if the phrase could link to the entityID for the metaphorical meaning.
 
@@ -93,14 +97,14 @@ He shall take away the sins of the world. (He)refersTo --> Lamb of God(entityID:
 
 ### Things
 
-Broadly speaking: `Things` need to be categorized. I am not sure if this happens in the corpus or if this happens in a dictionary to which the corpus is dynamically linked. In dealing with pronouns, it would be very helpful if `people` and `places` had specific ID's worked out based on semantics (rather than Strong's numbers).
+Broadly speaking: `Things` need to be categorized. I am not sure if this happens in the corpus or if this happens in a dictionary to which the corpus is dynamically linked (as in Linked Data linked). In dealing with pronouns, it would be very helpful if `people` and `places` had specific ID's (which are dereferenceable) worked out based on semantics (rather than Strong's numbers). One option, which I'm not a particular fan of is using something like  `sameAs: "WikiDataID"``
 
 * Place ID dictionary: the Jordan River, the wilderness, the temple, the high place(mountain)
 
-* Person ID dictionary: Luke, Devil, Jesus
+* Person ID dictionary: Luke, Devil, Jesus(Q302)
   * Person type typology: Deity, Supreme Deity, Human, Animal, Celestial being
 
-Some future work may want to look at plants, or tools mentioned and mark those up. with a type, so a generalizable syntax would be desirable. This future work could also pave the the way for an alignment with Ron Moe's semantic domains and Nida's semantic domain work. I am not interested in doing that work at this time.
+Some future work may want to look at plants, or tools mentioned and mark those up. with a type, so a generalizable syntax would be desirable. This future work could also pave the the way for an alignment with Ron Moe's semantic domains and Nida's semantic domain work. I am not interested in doing that work at this time. One overwhelming aspect of semantic domain linking, is that semantic domains can be viewed as rational eg. rain, water, river, cloud; or culture based (things the culture associates together). In the case  of corpora across languages, the semantic domains do not really need to align... but translation is easier when they do.
 
 ### Embedded Quote Source
 I need a way to point someone to the source text of the embedded Quote when possible. For instance Jesus says: It is written.... Well where is it written?
