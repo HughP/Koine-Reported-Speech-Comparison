@@ -39,13 +39,18 @@ It is important to mark the unit of text which comprises the lead-in clauses for
 A tentative mark-up might look like this:
 
 ```
-<DiscourseQuoteUnit><Speech Orienter/><Reported Speech type="Direct|Indirect|Semidirect"/></DiscourseQuoteUnit>
+
+<DiscourseQuoteUnit> <Speech Orienter/> <Reported Speech type="Direct|Indirect|Semidirect"/> </DiscourseQuoteUnit>
+
 ```
+
 
 `<DiscourseQuoteUnit>` can logical come in two types. Dooley and Levinsohn label these two types as: "Closed Conversation", meaning there is no speech orienter present, and "not closed" meaning there is a speech orienter present. Is it necessary to add these types to `<DiscourseQuoteUnit>`? Perhaps as:
 
 ```
+
 <DiscourseQuoteUnit type="closed">
+
 ```
 
 Reported speech has at least three types, typologically speaking, across the worlds languages. Dooley and Levinsohn describe these three distinctions as `Direct|Indirect|Semidirect`. I add these to the XML-like markup as a `type=""` under reported speech. Doing it this way is manually intensive because the three way distinction is primarily about what pronouns are used. That is, if pronoun and antecedents were marked up directly this type distinction might be distinguishable via algorithm.
@@ -70,6 +75,8 @@ Antecedent pronoun ID relationship: refersTo (entityID and InstanceID), isRefere
 ```
 He shall take away the sins of the world. (He)refersTo --> Lamb of God(entityID:1234)  --> Metaphorically refers to Jesus(entityID:1233).
 ```
+
+
 
 Broadly speaking: `Things` need to be categorized. I am not sure if this happens in the corpus or if this happens in a dictionary to which the corpus is dynamically linked. In dealing with pronouns, it would be very helpful if `people` and `places` had specific ID's worked out based on semantics (rather than Strong's numbers).
 
