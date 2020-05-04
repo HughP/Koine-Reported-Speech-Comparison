@@ -43,7 +43,7 @@ _Why start with reported speech?_
 
 _So what sort of annotations should be made for discourse in a cross-linguistic, typological framework which focuses on reported speech?_
 
-### DiscourseQuoteUnit
+### reportedSpeech
 #### Speech Orienter
 It is important to mark the unit of text which comprises the lead-in clauses for the reported speech and the reported speech. Dooley and Levinsohn call the lead-in clauses `Speech Orienter`. The speech orienter can occur before, after or in between part of the quote. The quote is what is said by the "actor".
 
@@ -51,20 +51,20 @@ A tentative mark-up might look like this:
 
 ```XML
 
-<DiscourseQuoteUnit>
+<reportedSpeech>
   <Speech Orienter/> <Reported Speech type="Direct|Indirect|Semidirect"/>
-</DiscourseQuoteUnit>
+</reportedSpeech>
 
 ```
 
 #### Closed or Open
-`<DiscourseQuoteUnit>` can logical come in two types. Dooley and Levinsohn label these two types as: "Closed Conversation", meaning there is no speech orienter present, and "not closed" meaning there is a speech orienter present. It is an open question as to if it is the best strategy to add these distinctions as types to `<DiscourseQuoteUnit>`. I am tentatively adding them as:
+`<reportedSpeech>` can logical come in two types. Dooley and Levinsohn label these two types as: "Closed Conversation", meaning there is no speech orienter present, and "not closed" meaning there is a speech orienter present. It is an open question as to if it is the best strategy to add these distinctions as types to `<reportedSpeech>`. I am tentatively adding them as:
 
 ```XML
 
-<DiscourseQuoteUnit type="closed">
+<reportedSpeech type="closed">
   <Reported Speech type="Direct|Indirect|Semidirect"/>
-</DiscourseQuoteUnit>
+</reportedSpeech>
 
 ```
 
@@ -72,23 +72,23 @@ or
 
 ```XML
 
-<DiscourseQuoteUnit type="open">
+<reportedSpeech type="open">
   <Speech Orienter/> <Reported Speech type="Direct|Indirect|Semidirect"/>
-</DiscourseQuoteUnit>
+</reportedSpeech>
 
 ```
 
 #### Direct, Indirect, Semidirect
 Reported speech has at least three types, typologically speaking, across the worlds languages. Dooley and Levinsohn describe these three distinctions as `Direct|Indirect|Semidirect`. I add these to the XML-like markup as a `type=""` under reported speech. Doing it this way is manually intensive because the three way distinction is primarily about what pronouns are used. That is, if pronoun and antecedents were marked up directly this type distinction might be distinguishable via algorithm.
 
-For the purposes of reported speech identification if text is not in a DiscourseQuoteUnit then it can be assumed to be narration. However, there is a second layer of analysis which should be able to be marked up with future research / work. That work is the identification of the discourse purpose of portions of the narration. For instance, in Luke chapter 4, the first two verses help the reader break from the previous scene, develop a new scene and introduce the characters in the scene. These verses set the stage for the uninformed "hearer" of the story. The information is not common understanding between the narrator and the audience. When the known/new information dichotomy is altered different patterns can occur.
+For the purposes of reported speech identification if text is not in a reportedSpeech then it can be assumed to be narration. However, there is a second layer of analysis which should be able to be marked up with future research / work. That work is the identification of the discourse purpose of portions of the narration. For instance, in Luke chapter 4, the first two verses help the reader break from the previous scene, develop a new scene and introduce the characters in the scene. These verses set the stage for the uninformed "hearer" of the story. The information is not common understanding between the narrator and the audience. When the known/new information dichotomy is altered different patterns can occur.
 
 Therefore, it would be useful to mark up all text units with their purpose. For my purposes, I can see this as --()--
 
 ```
 discourseRole: Narration, Speech Event
 ```
-Note that `Speech Orienters` would still be marked as Narration! DiscourseQuoteUnit and Narration are not mutually exclusive categories. This leads to an issue in [Overlapping Markup](https://en.wikipedia.org/wiki/Overlapping_markup)
+Note that `Speech Orienters` would still be marked as Narration! reportedSpeech and Narration are not mutually exclusive categories. This leads to an issue in [Overlapping Markup](https://en.wikipedia.org/wiki/Overlapping_markup)
 
 ### Purpose
 
@@ -118,10 +118,12 @@ If each word of the corpus is numbered with a unique ID then a second element ca
 Broadly speaking: `Things` need to be categorized. I am not sure if this happens in the corpus or if this happens in a dictionary to which the corpus is dynamically linked (as in Linked Data linked). In dealing with pronouns, it would be very helpful if `people` and `places` had specific ID's (which are dereferenceable) worked out based on semantics (rather than Strong's numbers). One option, which I'm not a particular fan of is using something like  `sameAs: "WikiDataID"``
 
 ```
-<thing type="person" sameAs="Q302" id="" wordAnchorID="">Jesus</thing>
+<w thingType="person" sameAs="Q302" id="" wordAnchorID="" referenceType="Name">Jesus</w>
 ```
 
 How do I handle titles? "Lamb of God" --> Jesus or Jesus(entity) <-- Jesus(person) <-- LambOfGod(title). Each of these concepts can be and are unique.
+
+It seems that people can have: Name, Title, referencer (pronoun)
 
 The devil is another case. In some instances the entity is referred to as "The Devil(Q6674)", "Lucifer", "The Great Deceiver", "Satan(Q35230)". In some sense these are all different ideas, but all reference the same entity. What is a good way to handle this? Local reference prevails over global reference.
 
@@ -149,7 +151,7 @@ A very poor, inconsistent hand drawn sketch of XML which helped me think through
 
 ```XML
 <?xml version="1.0" encoding="UTF-8"?>
-<document>
+<corpus>
    <structureTag type="start" unit="chapter" unitID="4"></structureTag>
    <structureTag type="start" unit="verse" unitID="1"></structureTag>
    <discourseEpisode id="1">
@@ -175,30 +177,29 @@ and
            <clause id="5">at the end of them <person id="" sameAs="Jesus(Q302)">he</person> was hungry.
           </clause>
       </discussant>
-          <DiscourseQuoteUnit type="open">
-          <SpeechOrienter>
+          <reportedSpeech type="open">
+          <speechOrienter>
               <discussant role="narrator" person="Luke" id="" sameAs="">
            <clause id="6"><person id="devil">The devil</person> said to <person sameAs="Jesus(Q302)">him</person>,
           </clause>
     </discussant>
-  </SpeechOrienter>
-    <ReportedSpeech type="Direct|Indirect|Semidirect"/>
+  </speechOrienter>
+    <reportedSpeech type="Direct|Indirect|Semidirect"/>
     <discussant role="speaker" person="devil" id="" sameAs="" >
           <clause id="7"> “If <person id="" role="" sameAs="Jesus(Q302)">you</person> are the Son of God,
           </clause>
           <clause id="8"> tell this stone to become bread.”</clause>
     </discussant>
-  </ReportedSpeech>
-  </DiscourseQuoteUnit>
-<DiscourseQuoteUnit type="open">
-<SpeechOrienter>
+  </reportedSpeech>
+<reportedSpeech type="open">
+<speechOrienter>
   <discussant role="narrator" person="Luke" id="" sameAs=""><person sameAs="Jesus(Q302)">Jesus</person> answered,
 </discussant>
-</SpeechOrienter>
-<ReportedSpeech type="Direct|Indirect|Semidirect"/><discussant role="speaker" sameAs="Jesus(Q302)">“It is written: <quote source=""> ‘Man shall not live on bread alone.’”</quote>
+</speechOrienter>
+<reportedSpeech type="Direct|Indirect|Semidirect"/><discussant role="speaker" sameAs="Jesus(Q302)">“It is written: <quote source=""> ‘Man shall not live on bread alone.’”</quote>
 </discussant>
-</ReportedSpeech>
-</DiscourseQuoteUnit>
+</reportedSpeech>
+</reportedSpeech>
 
 <discussant role="narrator" person="Luke" id="" sameAs="">
 <person id="devil">The devil led <person id="" sameAs="Jesus(Q302)">him</person> up to a high place and showed <person id="" sameAs="Jesus(Q302)">him</person> in an instant all the kingdoms of the world.</discussant>
@@ -253,11 +254,31 @@ All the people in the synagogue were furious when they heard this. <structureTag
 <structureTag type="end" unit="verse" unitID="30"></structureTag>
 <structureTag type="end" unit="chapter" unitID="4"></structureTag>
 </discourseEpisode>
-</document>
+</corpus>
 
 ```
-Scripture quotations taken from The Holy Bible, New International Version® NIV®
-Copyright © 1973 1978 1984 2011 by Biblica, Inc. TM
-Used by permission. All rights reserved worldwide.
+## Bibliography
 
-Everything else copyrighted 2020 by Hugh Paterson III and licensed under MIT license.
+* Ariel, Mira. 1990. Accessing noun-phrase antecedents (Croom Helm Linguistics Series). London: Routledge. https://doi.org/10.4324/9781315857473.
+* Ariel, Mira. 2016. Accessing noun-phrase antecedents (Routledge Library Editions. Linguistics B). London: Routledge. https://doi.org/10.4324/9781315857473 (Particularly interesting was the [hierarchy presented in section 9.2 on names and titles](https://books.google.fr/books?id=J6PIAgAAQBAJ&pg=PT140&lpg=PT140&dq=names+titles+difference+linguistics&source=bl&ots=4ryoNgSv7a&sig=ACfU3U3PL6yrMOzjOxgKZPCBATdFcPGvVw&hl=en&sa=X&ved=2ahUKEwjVupui4ZjpAhXG3YUKHflxAU4Q6AEwC3oECBMQAQ#v=onepage&q=names%20titles%20difference%20linguistics&f=false))
+* Aljbour, Atef Fleih & Fawwaz Al-Abed Al-Haq. 2019. An Investigation of Feminine Personal Names in Beni Sakhr Tribe of Jordan: A Sociolinguistic Study. International Journal of Linguistics 11(6). 41. https://doi.org10.5296/ijl.v11i6.14960. http://www.macrothink.org/journal/index.php/ijl/article/view/14960 (4 May, 2020).
+
+* Dooley, Robert A. & [Stephen H. Levinsohn](https://scholars.sil.org/stephen_h_levinsohn/cv). 2001. Analyzing discourse: a manual of basic concepts. Dallas, Tx: SIL International.
+
+
+
+## Colophon
+
+XML was validated here: http://xml.mherman.org
+
+Many `sed` commands were modified from questions asked on stackexchange
+
+`xsl` transform script was modified from https://stackoverflow.com/questions/4899901/wrap-words-in-tags-using-xslt
+
+XML schema was in part modeled off of text available via [biblical humanities such as the Nestle 1904 version](https://github.com/biblicalhumanities/Nestle1904/blob/master/xml/04-luke.xml).
+
+Scripture quotations taken from [The Holy Bible, New International Version® NIV®](https://www.biblegateway.com/passage/?search=Luke+4&version=NIV)
+Copyright © 1973 1978 1984 2011 by [Biblica, Inc](https://www.biblica.com/). TM
+Used by permission via [Biblica's use guidance](https://www.biblica.com/resources/bible-faqs/how-do-i-license-the-niv/). All rights reserved worldwide.
+
+Everything else copyrighted 2020 by Hugh Paterson III and licensed under [MIT license](https://opensource.org/licenses/MIT).
