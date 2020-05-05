@@ -3,6 +3,8 @@
 
 #The NIV text uses U+2019 ’ RIGHT SINGLE QUOTATION MARK as an apostrophe. This is not errant in that Unicode 3.0 and above have stated that this is the perfered character to use for apostrophe. However we are going to use gnu sed to switch U+2019 for U+0027 APOSTROPHE. because we need to use the single quotes to look at reported speech inside of reported speech.
 
+#Tool for finding out which character is used https://www.babelstone.co.uk/Unicode/whatisit.html
+
 #Lets make a copy of the text
 cp original_text.txt marked-up-text2.txt
 
@@ -35,7 +37,7 @@ sed -e 's/\[\([a-zA-Z ]*\)\]/@/g'  -i marked-up-text2.txt
 
 
 # Lets mark up all the words with XML #This script was sourced here: https://stackoverflow.com/questions/4899901/wrap-words-in-tags-using-xslt
-xsltproc -o numbered-text.xml number-words.xls marked-up-text2.txt
+xsltproc -o numbered-text.xml number-words.xsl marked-up-text2.txt
 # Lets change the numbers in the texts to milestone tags
 sed -e 's/\([0-9]\+ \)/<milestone unit=\"verse\" id=\"Luke.4.\1\"\/>/g'  -i numbered-text.xml
 sed -e 's/\([0-9]\+\)\( \)/\1/g'  -i numbered-text.xml
@@ -46,7 +48,7 @@ sed -e 's/ \* //g' -i numbered-text.xml
 sed -e '0,/verse/ s/verse/chapter/' -i numbered-text.xml #Maual clean this 4.4 to just 4
 
 # Lets add some markup around the punctuation. And lets do this before we put in the correct XML declaratoin so that the period doesn't give us a match.
-xsltproc -o numbered-text2.xml surrounded-punctuation.xls numbered-text.xml
+xsltproc -o numbered-text2.xml surrounded-punctuation.xsl numbered-text.xml
 
 mv numbered-text2.xml numbered-text.xml
 #mv numbered-text2.xml numbered-text.xml
