@@ -5,21 +5,24 @@ A look at what things might be needed to annotate a corpus of New Testament Gree
 
 _Why am I doing this project? What do I hope to do at the end of this project?_
 
-I hope to be able to programmatically scan a portion of a New Testament Translation where the target language of the translation is an under resourced (a language with few digital tools), low-density language (a language without a significant corpus for generating AI or machine learning based translation tooling) and determine if the translation has followed discourse patterns which are natural for that language while also still accurate for the actions in the text and the stylistic intent of the author.
+I hope to be able to programmatically scan a portion of a New Testament Translation where the target language of the translation is an under resourced (a language with few digital tools), and a low-density language (a language without a significant corpus for generating AI or machine learning based translation tooling) and determine if the translation has followed (specified) discourse patterns which are natural for that language while also still accurate communicate the actions in the text and the stylistic intent of the original language author.
 
-Assumptions:
+### Assumptions
 
-1. Bible translation into minority languages is often **not** from Greek straight into a _target language_ such as are spoken by small communities in West Africa or on the isle of Papua. Rather it is often through a _gateway language_, into which Biblical Exegetical helps have been translated or written.
-2. From a literature terminological perspective, there are discourse patterns for highlighting (foregrounding), back grounding characters or themes in stories, or hortative texts. In the linguistics literature, these ideas might come under the name of topic/focus, or known/new information, or a variety of other terminological distinctions.
-3. There is a great deal of typological variation between languages in how they handle specific patterns of highlighting devices or backgrounding elements. This variation can lead to confusion in the translation process, especially when translators are multi-lingual and focused on syntax, orthography, and a variety of other factors which may pull their attention away from the task of focusing on the stylistic naturalness of the target language which matches the stylistic naturalness of the language in which the resource was first written.
-4. Levinsohn reports that Theological commentaries sparsely address the issue of greek discourse patterns.
-5. It takes **three** annotated corpora to do this kind of check. 1) it takes an annotated Greek text of the New Testament. 2) It takes an annotated (for the same kinds of features) corpus in the target language. 3) It takes a New Testament translation in the target language.
-6. The project is too big for me to do alone; more people than just me will benefit from the outcomes.
-7. Reported speech is a good place to start.
+1. Bible translation into minority languages is often **not** from _Koine Greek_ straight into a _target language_ such as are spoken by small communities in West Africa or on the isle of Papua. Rather translation is often conducted through a _gateway language_, into which Biblical Exegetical helps have been translated or written. (Modern translations frequently undergo some sort of peer-reviewed for theological accuracy or for communicative clarity in the target language, but all translations are published as a set of compromises — which may include peer-review bias, linguistic, sociological, theological, and financial components. Additionally organizational and historical biases may also occur. Such as in cases where a particular organization chooses to do a translation to meet "beliefs" which are germane within the context of the organization, or the case where congruency with a previously published translation in the regional language-of-wider-communication is desired.)
+2. Within the industry of Machine Learning, Artificial Intelligence, and Machine Translation, the use of a "massively parallel corpus" (Dufter et al. 2018, Koppel et al. 2011) is increasingly important as a translation pivot between languages, and as a set of training data for ML/AI tools (Zhao et al. 2018). This does not mean improving the training data for the AI/ML community is the only reason for undertaking this kind of investigation. Rather there is a great deal of value in providing human translators tools which can check their work, and also peer-reviewers tools which can speed up the peer-review process (processes such as those suggested in Levinsohn 2006b). Third, developing these tools in the open where funders of language development activities (inclusive of translation) can access the tools and the results profiles for a greater level of transparency in the kinds of outputs that organizations report to produce. All of these activities will impact language using communities.
+3. From a literature terminological perspective, there are discourse patterns for highlighting (foregrounding), back grounding characters or themes in stories, or hortative texts. In the linguistics literature, these ideas might come under the name of topic/focus, or known/new information, or a variety of other terminological distinctions.
+4. There is a great deal of typological variation between languages in how they handle specific patterns of highlighting devices or backgrounding elements. This variation can lead to confusion in the translation process, especially when translators are multi-lingual and focused on syntax, orthography, and a variety of other factors which may pull their attention away from the task of focusing on the stylistic naturalness of the target language which matches the stylistic naturalness of the language in which the resource was first written.
+5. Levinsohn (2006a) reports that Theological commentaries sparsely address the issue of Koine Greek discourse patterns.
+6. It takes **three** annotated corpora to do the proposed kind of check. 1) it takes an annotated Greek text of the New Testament. 2) It takes an annotated (for the same kinds of features) corpus in the target language. 3) It takes a New Testament translation in the target language.
+7. The project is too big for me to do alone; more people than just me will benefit from the outcomes.
+8. Reported speech is a good place to start.
 
 A researcher in possession of all three corpora mentioned in # 5 should be able to quickly look at the output of the corpus in the target language, and see what the patterns of the target language are in various contexts.
 
-The same researcher should also be able to effortlessly check a Bible translation in the same target language to see if the Bible translation uses those same discourse patterns in its translation practice.
+The same researcher should also be able to "effortlessly" check a Bible translation in the same target language to see if the Bible translation uses those same discourse patterns in its translation practice.
+
+In a sense I am proposing to label the constructions (form-function pairs) of the discourse strategies and match on the functions across languages.
 
 If a researcher does a direct comparison between the translated text and the annotated corpus (which could be done with direct literal translation, word-based library lookup ) or a statistical comparison (closest neighbor or other statistical training model), then the researcher still doesn't know if all cases were acted upon, or if all cases were correctly translated with the right strategy in the right places.
 
@@ -36,7 +39,7 @@ _Why start with reported speech?_
 
 1. It is small and achievable.
 2. It is a measurable component of many discourse features.
-3. There is a real chance of the mis-use of personal pronouns by languages which use logophoric pronouns, as logophoric pronouns are not part of Greek or the majority of "gateway" languages.
+3. There is a real chance of the mis-use of personal pronouns by languages which use logophoric pronouns, as logophoric pronouns are not part of Koine Greek or the majority of "gateway" languages. However there may be patterns of [Logophoricity](https://en.wikipedia.org/wiki/Logophoricity) in the discourse in these languages.
 4. CNRS-LLCAN is conducting a [reported speech research project](https://sites.google.com/view/speechreporting/calls-and-openings) to discover a variety of patterns of use for logophoric pronouns in West-African languages. ([article](https://dumas.ccsd.cnrs.fr/LLACAN/hal-02268641v1))
 
 ## Distinctions
@@ -261,11 +264,41 @@ All the people in the synagogue were furious when they heard this. <structureTag
 
 * Ariel, Mira. 1990. Accessing noun-phrase antecedents (Croom Helm Linguistics Series). London: Routledge. https://doi.org/10.4324/9781315857473.
 * Ariel, Mira. 2016. Accessing noun-phrase antecedents (Routledge Library Editions. Linguistics B). London: Routledge. https://doi.org/10.4324/9781315857473 (Particularly interesting was the [hierarchy presented in section 9.2 on names and titles](https://books.google.fr/books?id=J6PIAgAAQBAJ&pg=PT140&lpg=PT140&dq=names+titles+difference+linguistics&source=bl&ots=4ryoNgSv7a&sig=ACfU3U3PL6yrMOzjOxgKZPCBATdFcPGvVw&hl=en&sa=X&ved=2ahUKEwjVupui4ZjpAhXG3YUKHflxAU4Q6AEwC3oECBMQAQ#v=onepage&q=names%20titles%20difference%20linguistics&f=false))
-* Aljbour, Atef Fleih & Fawwaz Al-Abed Al-Haq. 2019. An Investigation of Feminine Personal Names in Beni Sakhr Tribe of Jordan: A Sociolinguistic Study. International Journal of Linguistics 11(6). 41. https://doi.org10.5296/ijl.v11i6.14960. http://www.macrothink.org/journal/index.php/ijl/article/view/14960 (4 May, 2020).
+* Aljbour, Atef Fleih & Fawwaz Al-Abed Al-Haq. 2019. An Investigation of Feminine Personal Names in Beni Sakhr Tribe of Jordan: A Sociolinguistic Study. International Journal of Linguistics 11(6). 41. https://doi.org/10.5296/ijl.v11i6.14960. http://www.macrothink.org/journal/index.php/ijl/article/view/14960 (4 May, 2020).
 
 * Dooley, Robert A. & [Stephen H. Levinsohn](https://scholars.sil.org/stephen_h_levinsohn/cv). 2001. Analyzing discourse: a manual of basic concepts. Dallas, Tx: SIL International.
 
+* Dufter, Philipp, Mengjie Zhao, Martin Schmitt, Alexander Fraser & Hinrich Schütze. 2018. Embedding Learning Through Multilingual Concept Induction. In Proceedings of the 56th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers), 1520–1530. Melbourne, Australia: Association for Computational Linguistics. https://doi.org/10.18653/v1/P18-1141. http://aclweb.org/anthology/P18-1141 (5 May, 2020).
 
+* Koeva, Svetla, Cvetana Krstev, Duško Vitas, Tita Kyriacopoulou, Claude Martineau & Tsvetana Dimitrova. 2018. Semantic And Syntactic Patterns Of Multiword Names: A Cross-Language Study. In Multiword expressions: Insights from a multi- lingual perspective, 31–62. Berlin: Language Science Press. https://doi.org/10.5281/ZENODO.1182589. https://zenodo.org/record/1182589 (4 May, 2020).
+
+* Koppel, Moshe, Navot Akiva, Idan Dershowitz & Nachum Dershowitz. 2011. Unsupervised Decomposition of a Document into Authorial Components. In Proceedings of the 49th Annual Meeting of the Association for Computational Linguistics: Human Language Technologies, 1356–1364. Portland, Oregon, USA: Association for Computational Linguistics. https://www.aclweb.org/anthology/P11-1136 (5 May, 2020).
+
+* Levinsohn, Stephen H. 2006a. The Relevance of Greek Discourse Studies to Exegesis. Journal of Translation 2(2). 11–21. https://www.sil.org/resources/publications/entry/40248.
+
+* Levinsohn, Stephen H. 2006b. Checking Translations for Discourse Features. Journal of Translation 2(2). 23–29. https://www.sil.org/resources/publications/entry/40269.
+
+* Zhao, Helen Jiahe & Jiamou Liu. 2018. Finding Answers from the Word of God: Domain Adaptation for Neural Networks in Biblical Question Answering. In 2018 International Joint Conference on Neural Networks (IJCNN), 1–8. Rio de Janeiro: IEEE. https://doi.org10.1109/IJCNN.2018.8489756. https://ieeexplore.ieee.org/document/8489756/ (5 May, 2020).
+
+
+## Greek Logophoricity and Anaphora
+
+* Michael Chiou. 3-4 June 2010 ‘Emphatic reflexives and logophoric marking in Modern Greek. Evidence from parliamentary discourse. A pragmatic analysis'. 31st TABU Dag 2010'. Groningen University. https://www.academia.edu/20326882/Emphatic_reflexives_and_logophoric_marking_in_Modern_Greek
+
+* Dobrov, Gregory. "The Syntax of Coreference in Greek." Classical Philology 83, no. 4 (1988): 275-88. Accessed May 5, 2020. www.jstor.org/stable/269506.
+* Paul Kiparsky Greek Anaphora in Cross-Linguistic Perspective. Journal of Greek Linguistics 12 (2012) 84–117 [print-version](https://web.stanford.edu/~kiparsky/Papers/GreekAnaphoraJGL.pdf) [Preprint](https://web.stanford.edu/~kiparsky/Papers/nijmegen.refl.JGL.rev.pdf)
+* Tiller, Patrick A. 2001. Reflexive Pronouns in the New Testament. Filología-Neotestamentaria 14. 43–63. https://www.bsw.org/filologia-neotestamentaria/vol-14-2001/reflexive-pronouns-in-the-new-testament/415/ (5 May, 2020).
+* Lavidas, Nikolaos. 2012. Null vs. cognate objects and language contact: Evidence from Hellenistic Greek. Acta Linguistica Hafniensia 44(2). 142–168. https://doi.org/10.1080/03740463.2013.779079. http://www.tandfonline.com/doi/abs/10.1080/03740463.2013.779079 (5 May, 2020).
+
+
+
+## Logophoricity in general
+* Ameka, Felix K. 2017. “Logophoricity.” Chapter. In The Cambridge Handbook of Linguistic Typology, edited by Alexandra Y. Aikhenvald and R. M. W. Dixon, 513–37. Cambridge Handbooks in Language and Linguistics. Cambridge: Cambridge University Press. doi:[10.1017/9781316135716.016](https://doi.org/10.1017/9781316135716.016).
+* Strazny, Philipp (ed.). 2005. Encyclopedia of linguistics. New York: Fitzroy Dearborn. (Pages 446, 1058-59)
+* Denis CREISSELS. Intensifiers, reflexivity and logophoricity in Axaxdərə Akhvakh. Conference on the Languages of the Caucasus, Leipzig, 07 – 09 December 2007. http://www.deniscreissels.fr/public/Creissels-logoph.Akhv.pdf
+* Rudnev, Pavel. 2017. Minimal pronouns, logophoricity and long-distance reflexivisation in Avar. Humanities Commons. https://doi.org/10.17613/M6BV7H. https://hcommons.org/deposits/item/hc:16961/ (5 May, 2020).
+
+   https://www.researchgate.net/publication/246494934_Intensifiers_and_reflexives_a_typological_perspective
 
 ## Colophon
 
