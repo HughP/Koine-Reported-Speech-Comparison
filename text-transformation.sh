@@ -72,23 +72,94 @@ sed -e "s/<pc><\/pc>//g" -i numbered-text.xml
 #Lets delete the empty lines
 sed '/^$/d' -i  numbered-text.xml
 rm marked-up-text2.txt
-exit 1
+
+# Lets change the chapter ID
+sed -e 's#<milestone unit="chapter" id="Luke.4.4" />#<milestone unit="chapter" id="Luke.4" />#g' -i numbered-text.xml
+
 ####
 #Discourse Marking
 ####
 
 #Lets add discourse episode markers.
-sed '/^<milestone unit="verse" id="Luke.4.14" />/i <discourseEpisode id="2">' -i numbered-text.xml
+sed -e '/^<milestone unit="verse" id="Luke.4.1" \/>/i <discourseEpisode id="1">' -i numbered-text.xml
+sed -e '/^<milestone unit="verse" id="Luke.4.14" \/>/i <discourseEpisode id="2">' -i numbered-text.xml
+sed -e '/^<discourseEpisode id="2">/i <\/discourseEpisode>' -i numbered-text.xml
+sed -e '/^<milestone unit="verse" id="Luke.4.31" \/>/i <discourseEpisode id="3">' -i numbered-text.xml
+sed -e '/^<discourseEpisode id="3">/i <\/discourseEpisode>' -i numbered-text.xml
+sed -e '/^<milestone unit="verse" id="Luke.4.38" \/>/i <discourseEpisode id="4">' -i numbered-text.xml
+sed -e '/^<discourseEpisode id="4">/i <\/discourseEpisode>' -i numbered-text.xml
+sed 's/<\/corpus>/\n<\/corpus>/g' -i numbered-text.xml
+sed -e '/<\/corpus>/i <\/discourseEpisode>' -i numbered-text.xml
+
+#sed remove inaccurate quote lines
+
+#Let's do some entity Identification.
+
+xmlstarlet ed --insert "///w[text()='Jesus']" --type attr -n thingType -v person numbered-text.xml > numbered-text2.xml
 
 
+#xmlstarlet ed --insert "///w[not(@person)]" --type attr -n person -v foobar numbered-text.xml > numbered-text2.xml
+
+#for ///w{Jesus}
+
+tidy -m -xml -utf8 -q numbered-text2.xml
+exit 1
+
+
+<entityType="deity|supremeDeity|human|animal|celestialBeing|place|celestialEntity" sameAs="http://www.wikidata.org/entity/Q302" referenceType="name|title|adposition|" id="" uuid="" semanticClauseRole="Theme|Agent|Loc"></entityType>
+
+
+<person id="Jesus" sameAs="http://www.wikidata.org/entity/Q302">Jesus</person>
+
+<w thingType="person" sameAs="Q302" id="jesus" wordAnchorID="" referenceType="name">Jesus</w>
+
+sed 's/(<w nivId=")(Luke.4¡1)(")(>)(Jesus</w>)/ \1\2\3 sometext \4\5'
+<w nivId="Luke.4¡1">Jesus</w>
+
+sed 's/(<w nivId=")(Luke.4¡1)(">Jesus</w>)/<sometag> \1\2\3 </sometag>/g'
+<w nivId="Luke.4¡1">Jesus</w>
+
+
+<clause id="">
+<discussant role="narrator" person="Luke" id="" sameAs="http://www.wikidata.org/entity/Q128538">
+
+
+<wordType="referer"></
 #Lets mark up some people names
-Jesus, Elija, Elisha, Simon
+Holy Spirit: http://www.wikidata.org/entity/Q37302
+Luke: http://www.wikidata.org/entity/Q128538
+Jesus: http://www.wikidata.org/entity/Q302
+Elija: http://www.wikidata.org/entity/Q133507
+ Elisha: http://www.wikidata.org/entity/Q206238
+ Simon (peter): http://www.wikidata.org/entity/Q33923
+ Simon's Mother inlaw: http://www.wikidata.org/entity/Q23581940
+[Naaman] the Syrian: http://www.wikidata.org/entity/Q126778
+[Joseph]’s son: http://www.wikidata.org/entity/Q128267
+The  Devil: http://www.wikidata.org/entity/Q6674
 # ori sed -e 's/\[\([a-zA-Z ]*\)\]/\\macro{\1}/g'
 #Lets mark up some places
-Capernaum, Galilee, Nazareth,Jerusalem
+Capernaum: http://www.wikidata.org/entity/Q59174
+Galilee: http://www.wikidata.org/entity/Q83241
+Nazareth: http://www.wikidata.org/entity/Q430776
+Jerusalem: http://www.wikidata.org/entity/Q1218
+Judea (Roman Province): http://www.wikidata.org/entity/Q1003997
+[Zarephath: http://www.wikidata.org/entity/Q616837] in the region of [Sidon: https://www.wikidata.org/wiki/Q163490]
+Specific Places without a name:
+the Jordan (river): http://www.wikidata.org/entity/Q40059
+the wilderness(Mount Quarantania): http://www.wikidata.org/entity/Q10742877
+synagogue at Capernaum: http://www.wikidata.org/entity/Q2916829
+synagogue at Nazareth: http://www.wikidata.org/entity/Q7661936
+the temple
+the high place(mountain)
+
+
+
+# or is animacy really the distinuisnig feature here? These might be dictic referencers.
+
 # ori sed -e 's/\[\([a-zA-Z ]*\)\]/\\macro{\1}/g'
 #Lets mark up some referencer words related to animate entites
 He, Him, You, Your, Yourself, I, me, his, they, us, their
+
 # ori sed -e 's/\[\([a-zA-Z ]*\)\]/\\macro{\1}/g'
 #Lets mark up some referencer words related to inanimate entites
 where, this, here
