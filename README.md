@@ -42,6 +42,14 @@ _Why start with reported speech?_
 3. There is a real chance of the mis-use of personal pronouns by languages which use logophoric pronouns, as logophoric pronouns are not part of Koine Greek or the majority of "gateway" languages. However there may be patterns of [Logophoricity](https://en.wikipedia.org/wiki/Logophoricity) in the discourse in these languages.
 4. CNRS-LLCAN is conducting a [reported speech research project](https://sites.google.com/view/speechreporting/calls-and-openings) to discover a variety of patterns of use for logophoric pronouns in West-African languages. ([article](https://dumas.ccsd.cnrs.fr/LLACAN/hal-02268641v1))
 
+## Organization of the corpus
+This section lays out some of the assumptions which are marked in the corpus.
+
+1. It is assumed that each morpheme will be dereferencable with a unique id.
+2. It is assumed that each grouping of morphemes, words, or constituents which are marked will also be dereferencable.
+3. It is common practice among open access and openly licensed corpora of NT Koine Greek to apply an ID to each word. Not each morpheme. This ID usually incorporates notation for the book, chapter, verse, and the number of the word in the verses. In contrast to this very useful ordering for NT texts. Texts which originate in a target language (non-translated texts) do not have the advantage of the pre-conceived book, chapter, verse schema. Additionally the Koine Greek corpora are usually not tokenized at the morpheme level. This means that the corpora are not scoped to the same level of detail.
+4. Discourse episodes are overtly marked. However, linguistically they should be able to be derived.
+
 ## Distinctions
 
 _So what sort of annotations should be made for discourse in a cross-linguistic, typological framework which focuses on reported speech?_
@@ -118,7 +126,11 @@ If each word of the corpus is numbered with a unique ID then a second element ca
 
 ### Things
 
-Broadly speaking: `Things` need to be categorized. I am not sure if this happens in the corpus or if this happens in a dictionary to which the corpus is dynamically linked (as in Linked Data linked). In dealing with pronouns, it would be very helpful if `people` and `places` had specific ID's (which are dereferenceable) worked out based on semantics (rather than Strong's numbers). One option, which I'm not a particular fan of is using something like  `sameAs: "WikiDataID"``
+Broadly speaking: `Things` need to be categorized. I am not sure if this happens in the corpus or if this happens in a dictionary to which the corpus is dynamically linked (as in Linked Data linked). In dealing with pronouns, it would be very helpful if `people` and `places` had specific ID's (which are dereferenceable) worked out based on semantics (rather than Strong's numbers). One option, which I'm not a particular fan of is using something like  `sameAs: "WikiDataID"`. I am not a fan of using WikiData for two reasons:
+1. the entries in WikiData seem to evolve without constraint, part of that evolution is that entities are unconstrained and under-defined. For example, an entity might be about a concept and also have a painting, which the painter says is about the concept. Really the concept is the subject of the painting, but the painting is its own "thing"; another part of the evolution is that some entities are redirected to newer endpoints when concepts are merged.
+2. Concepts as a dereferenceable entity should be rooted in the linguistics and the cognitive expression the author is trying to evoke to their audience. It is not always clear how to do this with WikiData, where the endpoints are not under the editorial authority or practice of a source control (opinion).
+
+
 
 ```
 <w thingType="person" sameAs="Q302" id="" wordAnchorID="" referenceType="Name">Jesus</w>
@@ -132,8 +144,8 @@ The devil is another case. In some instances the entity is referred to as "The D
 
 * Place ID dictionary: the Jordan River, the wilderness, the temple, the high place(mountain), Jerusalem,
 
-* Person ID dictionary: Luke, Devil(Q6674), Jesus(Q302), Holy Spirit,
-  * Person type typology: Deity, Supreme Deity, Human, Animal, Celestial being
+* Person ID dictionary: Luke, Devil(Q6674), http://www.wikidata.org/entity/Q302, Holy Spirit,
+  * Person type typology: Deity, Supreme Deity, Human, Animal, Celestial being, not-a-person-type
 
 - And what happens to Jesus who is both Human and Supreme Deity.
 
@@ -158,79 +170,79 @@ A very poor, inconsistent hand drawn sketch of XML which helped me think through
    <structureTag type="start" unit="chapter" unitID="4"></structureTag>
    <structureTag type="start" unit="verse" unitID="1"></structureTag>
    <discourseEpisode id="1">
-      <discussant role="narrator" person="Luke" id="" sameAs="">
+      <discussant role="narrator" person="Luke" id="" sameAs="http://www.wikidata.org/entity/Q128538">
          <clause id="1">
-            <semanticClauseRole type="Theme"><person id="" sameAs="Jesus(Q302)">Jesus</person>
+            <semanticClauseRole type="Theme"><person id="Jesus" sameAs="http://www.wikidata.org/entity/Q302">Jesus</person>
             </semanticClauseRole>
  , full of the
-            <semanticClauseRole type="Agent"><person id="Holy Spirit">Holy Spirit</person>
+            <semanticClauseRole type="Agent"><person id="Holy Spirit" sameAs="http://www.wikidata.org/entity/Q37302">Holy Spirit</person>
             </semanticClauseRole>
 , left
-            <semanticClauseRole type="Loc"><place id="Jordan river">the Jordan</place>
+            <semanticClauseRole type="Loc"><place id="Jordan river" sameAs="http://www.wikidata.org/entity/Q40059">the Jordan</place>
             </semanticClauseRole>
          </clause>
 and
-         <clause id="2">was led by the <person id="Holy Spirit">Spirit</person> into <place id="">the wilderness</place>,
+         <clause id="2">was led by the <person id="Holy Spirit" sameAs="http://www.wikidata.org/entity/Q37302">Spirit</person> into <place id="">the wilderness</place>,
          </clause>
-         <clause id="3">where for forty days <person role="" id="" sameAs="Jesus(Q302)">he</person> was tempted by the <person id="devil">devil</person>.
+         <clause id="3">where for forty days <person role="" id="" sameAs="http://www.wikidata.org/entity/Q302">he</person> was tempted by the <person id="devil">devil</person>.
           </clause>
-          <clause id="4"><person id="" sameAs="Jesus(Q302)">He</person> ate nothing during those days,
+          <clause id="4"><person id="" sameAs="http://www.wikidata.org/entity/Q302">He</person> ate nothing during those days,
           </clause>
  and
-           <clause id="5">at the end of them <person id="" sameAs="Jesus(Q302)">he</person> was hungry.
+           <clause id="5">at the end of them <person id="" sameAs="http://www.wikidata.org/entity/Q302">he</person> was hungry.
           </clause>
       </discussant>
           <reportedSpeech type="open">
           <speechOrienter>
-              <discussant role="narrator" person="Luke" id="" sameAs="">
-           <clause id="6"><person id="devil">The devil</person> said to <person sameAs="Jesus(Q302)">him</person>,
+              <discussant role="narrator" person="Luke" id="" sameAs="http://www.wikidata.org/entity/Q128538">
+           <clause id="6"><person id="devil">The devil</person> said to <person sameAs="http://www.wikidata.org/entity/Q302">him</person>,
           </clause>
     </discussant>
   </speechOrienter>
     <reportedSpeech type="Direct|Indirect|Semidirect"/>
     <discussant role="speaker" person="devil" id="" sameAs="" >
-          <clause id="7"> “If <person id="" role="" sameAs="Jesus(Q302)">you</person> are the Son of God,
+          <clause id="7"> “If <person id="" role="" sameAs="http://www.wikidata.org/entity/Q302">you</person> are the Son of God,
           </clause>
           <clause id="8"> tell this stone to become bread.”</clause>
     </discussant>
   </reportedSpeech>
 <reportedSpeech type="open">
 <speechOrienter>
-  <discussant role="narrator" person="Luke" id="" sameAs=""><person sameAs="Jesus(Q302)">Jesus</person> answered,
+  <discussant role="narrator" person="Luke" id="" sameAs=""><person sameAs="http://www.wikidata.org/entity/Q302">Jesus</person> answered,
 </discussant>
 </speechOrienter>
-<reportedSpeech type="Direct|Indirect|Semidirect"/><discussant role="speaker" sameAs="Jesus(Q302)">“It is written: <quote source=""> ‘Man shall not live on bread alone.’”</quote>
+<reportedSpeech type="Direct|Indirect|Semidirect"/><discussant role="speaker" sameAs="http://www.wikidata.org/entity/Q302">“It is written: <quote source=""> ‘Man shall not live on bread alone.’”</quote>
 </discussant>
 </reportedSpeech>
 </reportedSpeech>
 
-<discussant role="narrator" person="Luke" id="" sameAs="">
-<person id="devil">The devil led <person id="" sameAs="Jesus(Q302)">him</person> up to a high place and showed <person id="" sameAs="Jesus(Q302)">him</person> in an instant all the kingdoms of the world.</discussant>
+  <discussant role="narrator" person="Luke" id="" sameAs="http://www.wikidata.org/entity/Q128538">
+<person id="devil">The devil led <person id="" sameAs="http://www.wikidata.org/entity/Q302">him</person> up to a high place and showed <person id="" sameAs="http://www.wikidata.org/entity/Q302">him</person> in an instant all the kingdoms of the world.</discussant>
 <structureTag type="end" unit="verse" unitID="5"></structureTag><structureTag type="start" unit="verse" unitID="6"></structureTag>
-<discussant role="narrator" person="Luke" id="" sameAs="">
- And <person id="devil">he</person> said to <person sameAs="Jesus(Q302)">him</person>,
+  <discussant role="narrator" person="Luke" id="" sameAs="http://www.wikidata.org/entity/Q128538">
+ And <person id="devil">he</person> said to <person sameAs="http://www.wikidata.org/entity/Q302">him</person>,
 </discussant>
 <discussant role="speaker" person="devil" id="" sameAs="">
- “<person id="devil">I</person> will give you all their authority and splendor; it has been given to <person id="devil">me</person>, and <person id="devil">I</person> can give it to anyone <person id="devil">I</person> want to. <structureTag type="end" unit="verse" unitID="6"></structureTag><structureTag type="start" unit="verse" unitID="7"></structureTag> If <person id="" sameAs="Jesus(Q302)">you</person> worship <person id="devil">me</person>, it will all be yours.”
+ “<person id="devil">I</person> will give you all their authority and splendor; it has been given to <person id="devil">me</person>, and <person id="devil">I</person> can give it to anyone <person id="devil">I</person> want to. <structureTag type="end" unit="verse" unitID="6"></structureTag><structureTag type="start" unit="verse" unitID="7"></structureTag> If <person id="Jesus" sameAs="http://www.wikidata.org/entity/Q302">you</person> worship <person id="devil">me</person>, it will all be yours.”
 </discussant>
 
 <discussant role="narrator" person="Luke" id="" sameAs="">
 <structureTag type="end" unit="verse" unitID="7"></structureTag><structureTag type="start" unit="verse" unitID="8"></structureTag> Jesus answered,
 </discussant>
-<discussant role="speaker" person="Jesus" id="" sameAs="">
+<discussant role="speaker" person="Jesus" id="" sameAs="http://www.wikidata.org/entity/Q302">
 “It is written: <quote source="">‘Worship the Lord your God and serve him only.’</quote>”
 </discussant>
 
-<structureTag type="end" unit="verse" unitID="8"></structureTag><structureTag type="start" unit="verse" unitID="9"></structureTag> The devil led him to Jerusalem and had him stand on the highest point of the temple. “If you are the Son of God,” he said, “throw yourself down from here. <structureTag type="end" unit="verse" unitID="9"></structureTag><structureTag type="start" unit="verse" unitID="10"></structureTag> For it is written:
+<structureTag type="end" unit="verse" unitID="8"></structureTag><structureTag type="start" unit="verse" unitID="9"></structureTag>   <discussant role="narrator" person="Luke" id="" sameAs="http://www.wikidata.org/entity/Q128538">The devil led him to Jerusalem and had him stand on the highest point of the temple.</discussant> “If you are the Son of God,” he said, “throw yourself down from here. <structureTag type="end" unit="verse" unitID="9"></structureTag><structureTag type="start" unit="verse" unitID="10"></structureTag> For it is written:
 
 “<quote source="">‘He will command his angels concerning you
     to guard you carefully;
 <structureTag type="end" unit="verse" unitID="10"></structureTag><structureTag type="start" unit="verse" unitID="11"></structureTag> they will lift you up in their hands,
     so that you will not strike your foot against a stone.’[d]</quote>”
 
-<structureTag type="end" unit="verse" unitID="11"></structureTag><structureTag type="start" unit="verse" unitID="12"></structureTag> Jesus answered, “It is said: <quote source="">‘Do not put the Lord your God to the test.’</quote>[e]”
+<structureTag type="end" unit="verse" unitID="11"></structureTag><structureTag type="start" unit="verse" unitID="12"></structureTag>   <discussant role="narrator" person="Luke" id="" sameAs="http://www.wikidata.org/entity/Q128538">Jesus answered</discussant>, “It is said: <quote source="">‘Do not put the Lord your God to the test.’</quote>[e]”
 
-<structureTag type="end" unit="verse" unitID="12"></structureTag><structureTag type="start" unit="verse" unitID="13"></structureTag> When the devil had finished all this tempting, he left him until an opportune time.
+<structureTag type="end" unit="verse" unitID="12"></structureTag><structureTag type="start" unit="verse" unitID="13"></structureTag> <discussant role="narrator" person="Luke" id="" sameAs="http://www.wikidata.org/entity/Q128538">When the devil had finished all this tempting, he left him until an opportune time.</discussant>
 
 <structureTag type="end" unit="verse" unitID="13"></structureTag><structureTag type="start" unit="verse" unitID="14"></structureTag> Jesus returned to Galilee in the power of the Spirit, and news about him spread through the whole countryside. <structureTag type="end" unit="verse" unitID="14"></structureTag><structureTag type="start" unit="verse" unitID="15"></structureTag> He was teaching in their synagogues, and everyone praised him.
 </discourseEpisode>
@@ -262,15 +274,9 @@ All the people in the synagogue were furious when they heard this. <structureTag
 ```
 ## Bibliography
 
-* Ariel, Mira. 1990. Accessing noun-phrase antecedents (Croom Helm Linguistics Series). London: Routledge. https://doi.org/10.4324/9781315857473.
-* Ariel, Mira. 2016. Accessing noun-phrase antecedents (Routledge Library Editions. Linguistics B). London: Routledge. https://doi.org/10.4324/9781315857473 (Particularly interesting was the [hierarchy presented in section 9.2 on names and titles](https://books.google.fr/books?id=J6PIAgAAQBAJ&pg=PT140&lpg=PT140&dq=names+titles+difference+linguistics&source=bl&ots=4ryoNgSv7a&sig=ACfU3U3PL6yrMOzjOxgKZPCBATdFcPGvVw&hl=en&sa=X&ved=2ahUKEwjVupui4ZjpAhXG3YUKHflxAU4Q6AEwC3oECBMQAQ#v=onepage&q=names%20titles%20difference%20linguistics&f=false))
-* Aljbour, Atef Fleih & Fawwaz Al-Abed Al-Haq. 2019. An Investigation of Feminine Personal Names in Beni Sakhr Tribe of Jordan: A Sociolinguistic Study. International Journal of Linguistics 11(6). 41. https://doi.org/10.5296/ijl.v11i6.14960. http://www.macrothink.org/journal/index.php/ijl/article/view/14960 (4 May, 2020).
-
 * Dooley, Robert A. & [Stephen H. Levinsohn](https://scholars.sil.org/stephen_h_levinsohn/cv). 2001. Analyzing discourse: a manual of basic concepts. Dallas, Tx: SIL International.
 
 * Dufter, Philipp, Mengjie Zhao, Martin Schmitt, Alexander Fraser & Hinrich Schütze. 2018. Embedding Learning Through Multilingual Concept Induction. In Proceedings of the 56th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers), 1520–1530. Melbourne, Australia: Association for Computational Linguistics. https://doi.org/10.18653/v1/P18-1141. http://aclweb.org/anthology/P18-1141 (5 May, 2020).
-
-* Koeva, Svetla, Cvetana Krstev, Duško Vitas, Tita Kyriacopoulou, Claude Martineau & Tsvetana Dimitrova. 2018. Semantic And Syntactic Patterns Of Multiword Names: A Cross-Language Study. In Multiword expressions: Insights from a multi- lingual perspective, 31–62. Berlin: Language Science Press. https://doi.org/10.5281/ZENODO.1182589. https://zenodo.org/record/1182589 (4 May, 2020).
 
 * Koppel, Moshe, Navot Akiva, Idan Dershowitz & Nachum Dershowitz. 2011. Unsupervised Decomposition of a Document into Authorial Components. In Proceedings of the 49th Annual Meeting of the Association for Computational Linguistics: Human Language Technologies, 1356–1364. Portland, Oregon, USA: Association for Computational Linguistics. https://www.aclweb.org/anthology/P11-1136 (5 May, 2020).
 
@@ -281,7 +287,16 @@ All the people in the synagogue were furious when they heard this. <structureTag
 * Zhao, Helen Jiahe & Jiamou Liu. 2018. Finding Answers from the Word of God: Domain Adaptation for Neural Networks in Biblical Question Answering. In 2018 International Joint Conference on Neural Networks (IJCNN), 1–8. Rio de Janeiro: IEEE. https://doi.org10.1109/IJCNN.2018.8489756. https://ieeexplore.ieee.org/document/8489756/ (5 May, 2020).
 
 
-## Greek Logophoricity and Anaphora
+## Consulted resources
+### Names and place names
+
+* Ariel, Mira. 1990. Accessing noun-phrase antecedents (Croom Helm Linguistics Series). London: Routledge. https://doi.org/10.4324/9781315857473.
+* Ariel, Mira. 2016. Accessing noun-phrase antecedents (Routledge Library Editions. Linguistics B). London: Routledge. https://doi.org/10.4324/9781315857473 (Particularly interesting was the [hierarchy presented in section 9.2 on names and titles](https://books.google.fr/books?id=J6PIAgAAQBAJ&pg=PT140&lpg=PT140&dq=names+titles+difference+linguistics&source=bl&ots=4ryoNgSv7a&sig=ACfU3U3PL6yrMOzjOxgKZPCBATdFcPGvVw&hl=en&sa=X&ved=2ahUKEwjVupui4ZjpAhXG3YUKHflxAU4Q6AEwC3oECBMQAQ#v=onepage&q=names%20titles%20difference%20linguistics&f=false))
+* Aljbour, Atef Fleih & Fawwaz Al-Abed Al-Haq. 2019. An Investigation of Feminine Personal Names in Beni Sakhr Tribe of Jordan: A Sociolinguistic Study. International Journal of Linguistics 11(6). 41. https://doi.org/10.5296/ijl.v11i6.14960. http://www.macrothink.org/journal/index.php/ijl/article/view/14960 (4 May, 2020).
+
+* Koeva, Svetla, Cvetana Krstev, Duško Vitas, Tita Kyriacopoulou, Claude Martineau & Tsvetana Dimitrova. 2018. Semantic And Syntactic Patterns Of Multiword Names: A Cross-Language Study. In Multiword expressions: Insights from a multi- lingual perspective, 31–62. Berlin: Language Science Press. https://doi.org/10.5281/ZENODO.1182589. https://zenodo.org/record/1182589 (4 May, 2020).
+*
+### Greek Logophoricity and Anaphora
 
 * Michael Chiou. 3-4 June 2010 ‘Emphatic reflexives and logophoric marking in Modern Greek. Evidence from parliamentary discourse. A pragmatic analysis'. 31st TABU Dag 2010'. Groningen University. https://www.academia.edu/20326882/Emphatic_reflexives_and_logophoric_marking_in_Modern_Greek
 
@@ -292,7 +307,7 @@ All the people in the synagogue were furious when they heard this. <structureTag
 
 
 
-## Logophoricity in general
+### Logophoricity in general
 * Ameka, Felix K. 2017. “Logophoricity.” Chapter. In The Cambridge Handbook of Linguistic Typology, edited by Alexandra Y. Aikhenvald and R. M. W. Dixon, 513–37. Cambridge Handbooks in Language and Linguistics. Cambridge: Cambridge University Press. doi:[10.1017/9781316135716.016](https://doi.org/10.1017/9781316135716.016).
 * Strazny, Philipp (ed.). 2005. Encyclopedia of linguistics. New York: Fitzroy Dearborn. (Pages 446, 1058-59)
 * Denis CREISSELS. Intensifiers, reflexivity and logophoricity in Axaxdərə Akhvakh. Conference on the Languages of the Caucasus, Leipzig, 07 – 09 December 2007. http://www.deniscreissels.fr/public/Creissels-logoph.Akhv.pdf
