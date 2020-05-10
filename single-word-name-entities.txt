@@ -1,0 +1,11 @@
+Capernaum http://www.wikidata.org/entity/Q59174
+Galilee http://www.wikidata.org/entity/Q83241
+Nazareth http://www.wikidata.org/entity/Q430776
+Jerusalem http://www.wikidata.org/entity/Q1218
+Judea http://www.wikidata.org/entity/Q1003997
+Zarephath http://www.wikidata.org/entity/Q616837
+Sidon https://www.wikidata.org/wiki/Q163490
+Luke http://www.wikidata.org/entity/Q128538
+Jesus http://www.wikidata.org/entity/Q302
+Elija http://www.wikidata.org/entity/Q133507
+Elisha http://www.wikidata.org/entity/Q206238
