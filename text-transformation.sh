@@ -95,30 +95,48 @@ sed -e '/<\/corpus>/i <\/discourseEpisode>' -i numbered-text.xml
 
 #Let's do some entity Identification.
 
-xmlstarlet ed --insert "///w[text()='Jesus']" --type attr -n thingType -v person numbered-text.xml > numbered-text2.xml
+#xmlstarlet ed --insert "///w[text()='Jesus']" --type attr -n thingType -v person numbered-text.xml > numbered-text2.xml
 
 
 #xmlstarlet ed --insert "///w[not(@person)]" --type attr -n person -v foobar numbered-text.xml > numbered-text2.xml
 
 #for ///w{Jesus}
 
-tidy -m -xml -utf8 -q numbered-text2.xml
+# for each line in file single-word-name-entities.txt
+#   get first field, and put it the first field in the sed command
+#   get second field, and put it the second field in the sed command
+# done
+#
+# awk -F '#' '{print $1 ":" $2}' < single-word-name-entities.txt
+
+#awk -F '!' '{print $1 $2}' < single-word-name-entities.txt
+
+
+while read -r NAME URI; do  sed -re 's#(<w nivId=")(Luke.[^"]+)(">${NAME}</w>)#<entityType type="deity|supremeDeity|human|animal|celestialBeing|place|celestialEntity|idea|substance" sameAs="${URI}" referenceType="name|title|adposition|" id="" uuid="" semanticClauseRole="Theme|Agent|Loc">\1\2\3</entityType>#g' -i numbered-text.xml ; done < single-word-name-entities.txt
 exit 1
 
+tidy -m -xml -utf8 -q numbered-text.xml
+exit 1
 
-<entityType="deity|supremeDeity|human|animal|celestialBeing|place|celestialEntity" sameAs="http://www.wikidata.org/entity/Q302" referenceType="name|title|adposition|" id="" uuid="" semanticClauseRole="Theme|Agent|Loc"></entityType>
+sed -re 's#(<w nivId=")(Luke.[^"]+)(">`$NAME`</w>)#<entityType type="deity|supremeDeity|human|animal|celestialBeing|place|celestialEntity|idea|substance" sameAs="`$URI`" referenceType="name|title|adposition|" id="" uuid="" semanticClauseRole="Theme|Agent|Loc">\1\2\3</entityType>#g' -i numbered-text.xml
+
+sed -re 's#(<w nivId=")(Luke.[^"]+)(">Jesus</w>)#<entityType type="deity|supremeDeity|human|animal|celestialBeing|place|celestialEntity|idea|substance" sameAs="http://www.wikidata.org/entity/Q302" referenceType="name|title|adposition|" id="" uuid="" semanticClauseRole="Theme|Agent|Loc">\1\2\3</entityType>#g' -i numbered-text.xml
+
+<entityType="deity|supremeDeity|human|animal|celestialBeing|place|celestialEntity|idea|substance" sameAs="http://www.wikidata.org/entity/Q302" referenceType="name|title|adposition|" id="" uuid="" semanticClauseRole="Theme|Agent|Loc"></entityType>
+
 
 
 <person id="Jesus" sameAs="http://www.wikidata.org/entity/Q302">Jesus</person>
 
 <w thingType="person" sameAs="Q302" id="jesus" wordAnchorID="" referenceType="name">Jesus</w>
 
-sed 's/(<w nivId=")(Luke.4¡1)(")(>)(Jesus</w>)/ \1\2\3 sometext \4\5'
+sed 's/(<w nivId=")(Luke.[^"]+)(")(>)(Jesus</w>)/ \1\2\3 sometext \4\5/g'
 <w nivId="Luke.4¡1">Jesus</w>
 
-sed 's/(<w nivId=")(Luke.4¡1)(">Jesus</w>)/<sometag> \1\2\3 </sometag>/g'
+sed 's#(<w nivId=")(Luke.[^"]+)(">Jesus</w>)#<entityType="deity|supremeDeity|human|animal|celestialBeing|place|celestialEntity|idea|substance" sameAs="http://www.wikidata.org/entity/Q302" referenceType="name|title|adposition|" id="" uuid="" semanticClauseRole="Theme|Agent|Loc"> \1\2\3 </entityType>#g'
 <w nivId="Luke.4¡1">Jesus</w>
 
+ perl -CS -pe 's/\N{U+FFF9}//g'
 
 <clause id="">
 <discussant role="narrator" person="Luke" id="" sameAs="http://www.wikidata.org/entity/Q128538">
