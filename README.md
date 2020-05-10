@@ -142,7 +142,7 @@ With this in mind to primary options for markup come to mind:
 
 2. Use parent/child xml structures. This is demonstrated in the following example.
   ```
-<entityType="dsupremeDeity" sameAs="http://www.wikidata.org/entity/Q302" referenceType="name|" id="" uuid="" semanticClauseRole="Theme"><w>Jesus</w></entityType>
+<entityType="supremeDeity" sameAs="http://www.wikidata.org/entity/Q302" referenceType="name|" id="" uuid="" semanticClauseRole="Theme"><w>Jesus</w></entityType>
 ```
  Additionally, some languages will have clitics and morphology which will point to other words without the whole word functioning as a reverencer. In this way I would assume that `<w></w>` tags can be parents of morphology tags.
 
