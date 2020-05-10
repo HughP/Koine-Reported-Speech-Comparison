@@ -1,0 +1,1081 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<corpus>
+  <milestone unit="chapter" id="Luke.4"/>
+  <discourseEpisode id="1">
+    <milestone unit="verse" id="Luke.4.1"/>
+    <w nivId="Luke.4¡1">Jesus</w>
+    <pc>,</pc>
+    <w nivId="Luke.4¡2">full</w>
+    <w nivId="Luke.4¡3">of</w>
+    <w nivId="Luke.4¡4">the</w>
+    <w nivId="Luke.4¡5">Holy</w>
+    <w nivId="Luke.4¡6">Spirit</w>
+    <pc>,</pc>
+    <w nivId="Luke.4¡7">left</w>
+    <w nivId="Luke.4¡8">the</w>
+    <w nivId="Luke.4¡9">Jordan</w>
+    <w nivId="Luke.4¡10">and</w>
+    <w nivId="Luke.4¡11">was</w>
+    <w nivId="Luke.4¡12">led</w>
+    <w nivId="Luke.4¡13">by</w>
+    <w nivId="Luke.4¡14">the</w>
+    <w nivId="Luke.4¡15">Spirit</w>
+    <w nivId="Luke.4¡16">into</w>
+    <w nivId="Luke.4¡17">the</w>
+    <w nivId="Luke.4¡18">wilderness</w>
+    <pc>,</pc>
+    <milestone unit="verse" id="Luke.4.2"/>
+    <w nivId="Luke.4¡19">where</w>
+    <w nivId="Luke.4¡20">for</w>
+    <w nivId="Luke.4¡21">forty</w>
+    <w nivId="Luke.4¡22">days</w>
+    <w nivId="Luke.4¡23">he</w>
+    <w nivId="Luke.4¡24">was</w>
+    <w nivId="Luke.4¡25">tempted</w>
+    <w nivId="Luke.4¡26">by</w>
+    <w nivId="Luke.4¡27">the</w>
+    <w nivId="Luke.4¡28">devil</w>
+    <pc>.</pc>
+    <w nivId="Luke.4¡29">He</w>
+    <w nivId="Luke.4¡30">ate</w>
+    <w nivId="Luke.4¡31">nothing</w>
+    <w nivId="Luke.4¡32">during</w>
+    <w nivId="Luke.4¡33">those</w>
+    <w nivId="Luke.4¡34">days</w>
+    <pc>,</pc>
+    <w nivId="Luke.4¡35">and</w>
+    <w nivId="Luke.4¡36">at</w>
+    <w nivId="Luke.4¡37">the</w>
+    <w nivId="Luke.4¡38">end</w>
+    <w nivId="Luke.4¡39">of</w>
+    <w nivId="Luke.4¡40">them</w>
+    <w nivId="Luke.4¡41">he</w>
+    <w nivId="Luke.4¡42">was</w>
+    <w nivId="Luke.4¡43">hungry</w>
+    <pc>.</pc>
+    <milestone unit="verse" id="Luke.4.3"/>
+    <w nivId="Luke.4¡44">The</w>
+    <w nivId="Luke.4¡45">devil</w>
+    <w nivId="Luke.4¡46">said</w>
+    <w nivId="Luke.4¡47">to</w>
+    <w nivId="Luke.4¡48">him</w>
+    <pc>,</pc>
+    “<w nivId="Luke.4¡49">If</w>
+    <w nivId="Luke.4¡50">you</w>
+    <w nivId="Luke.4¡51">are</w>
+    <w nivId="Luke.4¡52">the</w>
+    <w nivId="Luke.4¡53">Son</w>
+    <w nivId="Luke.4¡54">of</w>
+    <w nivId="Luke.4¡55">God</w>
+    <pc>,</pc>
+    <w nivId="Luke.4¡56">tell</w>
+    <w nivId="Luke.4¡57">this</w>
+    <w nivId="Luke.4¡58">stone</w>
+    <w nivId="Luke.4¡59">to</w>
+    <w nivId="Luke.4¡60">become</w>
+    <w nivId="Luke.4¡61">bread</w>
+    <pc>.</pc>”
+    <milestone unit="verse" id="Luke.4.4"/>
+    <w nivId="Luke.4¡62">Jesus</w>
+    <w nivId="Luke.4¡63">answered</w>
+    <pc>,</pc>
+    “<w nivId="Luke.4¡64">It</w>
+    <w nivId="Luke.4¡65">is</w>
+    <w nivId="Luke.4¡66">written</w>
+    <pc>:</pc>
+    ‘<w nivId="Luke.4¡67">Man</w>
+    <w nivId="Luke.4¡68">shall</w>
+    <w nivId="Luke.4¡69">not</w>
+    <w nivId="Luke.4¡70">live</w>
+    <w nivId="Luke.4¡71">on</w>
+    <w nivId="Luke.4¡72">bread</w>
+    <w nivId="Luke.4¡73">alone</w>
+    <pc>.</pc>’”
+    <milestone unit="verse" id="Luke.4.5"/>
+    <w nivId="Luke.4¡74">The</w>
+    <w nivId="Luke.4¡75">devil</w>
+    <w nivId="Luke.4¡76">led</w>
+    <w nivId="Luke.4¡77">him</w>
+    <w nivId="Luke.4¡78">up</w>
+    <w nivId="Luke.4¡79">to</w>
+    <w nivId="Luke.4¡80">a</w>
+    <w nivId="Luke.4¡81">high</w>
+    <w nivId="Luke.4¡82">place</w>
+    <w nivId="Luke.4¡83">and</w>
+    <w nivId="Luke.4¡84">showed</w>
+    <w nivId="Luke.4¡85">him</w>
+    <w nivId="Luke.4¡86">in</w>
+    <w nivId="Luke.4¡87">an</w>
+    <w nivId="Luke.4¡88">instant</w>
+    <w nivId="Luke.4¡89">all</w>
+    <w nivId="Luke.4¡90">the</w>
+    <w nivId="Luke.4¡91">kingdoms</w>
+    <w nivId="Luke.4¡92">of</w>
+    <w nivId="Luke.4¡93">the</w>
+    <w nivId="Luke.4¡94">world</w>
+    <pc>.</pc>
+    <milestone unit="verse" id="Luke.4.6"/>
+    <w nivId="Luke.4¡95">And</w>
+    <w nivId="Luke.4¡96">he</w>
+    <w nivId="Luke.4¡97">said</w>
+    <w nivId="Luke.4¡98">to</w>
+    <w nivId="Luke.4¡99">him</w>
+    <pc>,</pc>
+    “<w nivId="Luke.4¡100">I</w>
+    <w nivId="Luke.4¡101">will</w>
+    <w nivId="Luke.4¡102">give</w>
+    <w nivId="Luke.4¡103">you</w>
+    <w nivId="Luke.4¡104">all</w>
+    <w nivId="Luke.4¡105">their</w>
+    <w nivId="Luke.4¡106">authority</w>
+    <w nivId="Luke.4¡107">and</w>
+    <w nivId="Luke.4¡108">splendor</w>
+    <pc>;</pc>
+    <w nivId="Luke.4¡109">it</w>
+    <w nivId="Luke.4¡110">has</w>
+    <w nivId="Luke.4¡111">been</w>
+    <w nivId="Luke.4¡112">given</w>
+    <w nivId="Luke.4¡113">to</w>
+    <w nivId="Luke.4¡114">me</w>
+    <pc>,</pc>
+    <w nivId="Luke.4¡115">and</w>
+    <w nivId="Luke.4¡116">I</w>
+    <w nivId="Luke.4¡117">can</w>
+    <w nivId="Luke.4¡118">give</w>
+    <w nivId="Luke.4¡119">it</w>
+    <w nivId="Luke.4¡120">to</w>
+    <w nivId="Luke.4¡121">anyone</w>
+    <w nivId="Luke.4¡122">I</w>
+    <w nivId="Luke.4¡123">want</w>
+    <w nivId="Luke.4¡124">to</w>
+    <pc>.</pc>
+    <milestone unit="verse" id="Luke.4.7"/>
+    <w nivId="Luke.4¡125">If</w>
+    <w nivId="Luke.4¡126">you</w>
+    <w nivId="Luke.4¡127">worship</w>
+    <w nivId="Luke.4¡128">me</w>
+    <pc>,</pc>
+    <w nivId="Luke.4¡129">it</w>
+    <w nivId="Luke.4¡130">will</w>
+    <w nivId="Luke.4¡131">all</w>
+    <w nivId="Luke.4¡132">be</w>
+    <w nivId="Luke.4¡133">yours</w>
+    <pc>.</pc>”
+    <milestone unit="verse" id="Luke.4.8"/>
+    <w nivId="Luke.4¡134">Jesus</w>
+    <w nivId="Luke.4¡135">answered</w>
+    <pc>,</pc>
+    “<w nivId="Luke.4¡136">It</w>
+    <w nivId="Luke.4¡137">is</w>
+    <w nivId="Luke.4¡138">written</w>
+    <pc>:</pc>
+    ‘<w nivId="Luke.4¡139">Worship</w>
+    <w nivId="Luke.4¡140">the</w>
+    <w nivId="Luke.4¡141">Lord</w>
+    <w nivId="Luke.4¡142">your</w>
+    <w nivId="Luke.4¡143">God</w>
+    <w nivId="Luke.4¡144">and</w>
+    <w nivId="Luke.4¡145">serve</w>
+    <w nivId="Luke.4¡146">him</w>
+    <w nivId="Luke.4¡147">only</w>
+    <pc>.</pc>’”
+    <milestone unit="verse" id="Luke.4.9"/>
+    <w nivId="Luke.4¡148">The</w>
+    <w nivId="Luke.4¡149">devil</w>
+    <w nivId="Luke.4¡150">led</w>
+    <w nivId="Luke.4¡151">him</w>
+    <w nivId="Luke.4¡152">to</w>
+    <w nivId="Luke.4¡153">Jerusalem</w>
+    <w nivId="Luke.4¡154">and</w>
+    <w nivId="Luke.4¡155">had</w>
+    <w nivId="Luke.4¡156">him</w>
+    <w nivId="Luke.4¡157">stand</w>
+    <w nivId="Luke.4¡158">on</w>
+    <w nivId="Luke.4¡159">the</w>
+    <w nivId="Luke.4¡160">highest</w>
+    <w nivId="Luke.4¡161">point</w>
+    <w nivId="Luke.4¡162">of</w>
+    <w nivId="Luke.4¡163">the</w>
+    <w nivId="Luke.4¡164">temple</w>
+    <pc>.</pc>
+    “<w nivId="Luke.4¡165">If</w>
+    <w nivId="Luke.4¡166">you</w>
+    <w nivId="Luke.4¡167">are</w>
+    <w nivId="Luke.4¡168">the</w>
+    <w nivId="Luke.4¡169">Son</w>
+    <w nivId="Luke.4¡170">of</w>
+    <w nivId="Luke.4¡171">God</w>
+    <pc>,</pc>”
+    <w nivId="Luke.4¡172">he</w>
+    <w nivId="Luke.4¡173">said</w>
+    <pc>,</pc>
+    “<w nivId="Luke.4¡174">throw</w>
+    <w nivId="Luke.4¡175">yourself</w>
+    <w nivId="Luke.4¡176">down</w>
+    <w nivId="Luke.4¡177">from</w>
+    <w nivId="Luke.4¡178">here</w>
+    <pc>.</pc>
+    <milestone unit="verse" id="Luke.4.10"/>
+    <w nivId="Luke.4¡179">For</w>
+    <w nivId="Luke.4¡180">it</w>
+    <w nivId="Luke.4¡181">is</w>
+    <w nivId="Luke.4¡182">written</w>
+    <pc>:</pc>
+
+    “‘<w nivId="Luke.4¡183">He</w>
+    <w nivId="Luke.4¡184">will</w>
+    <w nivId="Luke.4¡185">command</w>
+    <w nivId="Luke.4¡186">his</w>
+    <w nivId="Luke.4¡187">angels</w>
+    <w nivId="Luke.4¡188">concerning</w>
+    <w nivId="Luke.4¡189">you</w>
+    <w nivId="Luke.4¡190">to</w>
+    <w nivId="Luke.4¡191">guard</w>
+    <w nivId="Luke.4¡192">you</w>
+    <w nivId="Luke.4¡193">carefully</w>
+    <pc>;</pc>
+    <milestone unit="verse" id="Luke.4.11"/>
+    <w nivId="Luke.4¡194">they</w>
+    <w nivId="Luke.4¡195">will</w>
+    <w nivId="Luke.4¡196">lift</w>
+    <w nivId="Luke.4¡197">you</w>
+    <w nivId="Luke.4¡198">up</w>
+    <w nivId="Luke.4¡199">in</w>
+    <w nivId="Luke.4¡200">their</w>
+    <w nivId="Luke.4¡201">hands</w>
+    <pc>,</pc>
+    <w nivId="Luke.4¡202">so</w>
+    <w nivId="Luke.4¡203">that</w>
+    <w nivId="Luke.4¡204">you</w>
+    <w nivId="Luke.4¡205">will</w>
+    <w nivId="Luke.4¡206">not</w>
+    <w nivId="Luke.4¡207">strike</w>
+    <w nivId="Luke.4¡208">your</w>
+    <w nivId="Luke.4¡209">foot</w>
+    <w nivId="Luke.4¡210">against</w>
+    <w nivId="Luke.4¡211">a</w>
+    <w nivId="Luke.4¡212">stone</w>
+    <pc>.</pc>’”
+    <milestone unit="verse" id="Luke.4.12"/>
+    <w nivId="Luke.4¡213">Jesus</w>
+    <w nivId="Luke.4¡214">answered</w>
+    <pc>,</pc>
+    “<w nivId="Luke.4¡215">It</w>
+    <w nivId="Luke.4¡216">is</w>
+    <w nivId="Luke.4¡217">said</w>
+    <pc>:</pc>
+    ‘<w nivId="Luke.4¡218">Do</w>
+    <w nivId="Luke.4¡219">not</w>
+    <w nivId="Luke.4¡220">put</w>
+    <w nivId="Luke.4¡221">the</w>
+    <w nivId="Luke.4¡222">Lord</w>
+    <w nivId="Luke.4¡223">your</w>
+    <w nivId="Luke.4¡224">God</w>
+    <w nivId="Luke.4¡225">to</w>
+    <w nivId="Luke.4¡226">the</w>
+    <w nivId="Luke.4¡227">test</w>
+    <pc>.</pc>’”
+    <milestone unit="verse" id="Luke.4.13"/>
+    <w nivId="Luke.4¡228">When</w>
+    <w nivId="Luke.4¡229">the</w>
+    <w nivId="Luke.4¡230">devil</w>
+    <w nivId="Luke.4¡231">had</w>
+    <w nivId="Luke.4¡232">finished</w>
+    <w nivId="Luke.4¡233">all</w>
+    <w nivId="Luke.4¡234">this</w>
+    <w nivId="Luke.4¡235">tempting</w>
+    <pc>,</pc>
+    <w nivId="Luke.4¡236">he</w>
+    <w nivId="Luke.4¡237">left</w>
+    <w nivId="Luke.4¡238">him</w>
+    <w nivId="Luke.4¡239">until</w>
+    <w nivId="Luke.4¡240">an</w>
+    <w nivId="Luke.4¡241">opportune</w>
+    <w nivId="Luke.4¡242">time</w>
+    <pc>.</pc>
+  </discourseEpisode>
+  <discourseEpisode id="2">
+    <milestone unit="verse" id="Luke.4.14"/>
+    <w nivId="Luke.4¡243">Jesus</w>
+    <w nivId="Luke.4¡244">returned</w>
+    <w nivId="Luke.4¡245">to</w>
+    <w nivId="Luke.4¡246">Galilee</w>
+    <w nivId="Luke.4¡247">in</w>
+    <w nivId="Luke.4¡248">the</w>
+    <w nivId="Luke.4¡249">power</w>
+    <w nivId="Luke.4¡250">of</w>
+    <w nivId="Luke.4¡251">the</w>
+    <w nivId="Luke.4¡252">Spirit</w>
+    <pc>,</pc>
+    <w nivId="Luke.4¡253">and</w>
+    <w nivId="Luke.4¡254">news</w>
+    <w nivId="Luke.4¡255">about</w>
+    <w nivId="Luke.4¡256">him</w>
+    <w nivId="Luke.4¡257">spread</w>
+    <w nivId="Luke.4¡258">through</w>
+    <w nivId="Luke.4¡259">the</w>
+    <w nivId="Luke.4¡260">whole</w>
+    <w nivId="Luke.4¡261">countryside</w>
+    <pc>.</pc>
+    <milestone unit="verse" id="Luke.4.15"/>
+    <w nivId="Luke.4¡262">He</w>
+    <w nivId="Luke.4¡263">was</w>
+    <w nivId="Luke.4¡264">teaching</w>
+    <w nivId="Luke.4¡265">in</w>
+    <w nivId="Luke.4¡266">their</w>
+    <w nivId="Luke.4¡267">synagogues</w>
+    <pc>,</pc>
+    <w nivId="Luke.4¡268">and</w>
+    <w nivId="Luke.4¡269">everyone</w>
+    <w nivId="Luke.4¡270">praised</w>
+    <w nivId="Luke.4¡271">him</w>
+    <pc>.</pc>
+    <milestone unit="verse" id="Luke.4.16"/>
+    <w nivId="Luke.4¡272">He</w>
+    <w nivId="Luke.4¡273">went</w>
+    <w nivId="Luke.4¡274">to</w>
+    <w nivId="Luke.4¡275">Nazareth</w>
+    <pc>,</pc>
+    <w nivId="Luke.4¡276">where</w>
+    <w nivId="Luke.4¡277">he</w>
+    <w nivId="Luke.4¡278">had</w>
+    <w nivId="Luke.4¡279">been</w>
+    <w nivId="Luke.4¡280">brought</w>
+    <w nivId="Luke.4¡281">up</w>
+    <pc>,</pc>
+    <w nivId="Luke.4¡282">and</w>
+    <w nivId="Luke.4¡283">on</w>
+    <w nivId="Luke.4¡284">the</w>
+    <w nivId="Luke.4¡285">Sabbath</w>
+    <w nivId="Luke.4¡286">day</w>
+    <w nivId="Luke.4¡287">he</w>
+    <w nivId="Luke.4¡288">went</w>
+    <w nivId="Luke.4¡289">into</w>
+    <w nivId="Luke.4¡290">the</w>
+    <w nivId="Luke.4¡291">synagogue</w>
+    <pc>,</pc>
+    <w nivId="Luke.4¡292">as</w>
+    <w nivId="Luke.4¡293">was</w>
+    <w nivId="Luke.4¡294">his</w>
+    <w nivId="Luke.4¡295">custom</w>
+    <pc>.</pc>
+    <w nivId="Luke.4¡296">He</w>
+    <w nivId="Luke.4¡297">stood</w>
+    <w nivId="Luke.4¡298">up</w>
+    <w nivId="Luke.4¡299">to</w>
+    <w nivId="Luke.4¡300">read</w>
+    <milestone unit="verse" id="Luke.4.17"/>
+    <pc>,</pc>
+    <w nivId="Luke.4¡301">and</w>
+    <w nivId="Luke.4¡302">the</w>
+    <w nivId="Luke.4¡303">scroll</w>
+    <w nivId="Luke.4¡304">of</w>
+    <w nivId="Luke.4¡305">the</w>
+    <w nivId="Luke.4¡306">prophet</w>
+    <w nivId="Luke.4¡307">Isaiah</w>
+    <w nivId="Luke.4¡308">was</w>
+    <w nivId="Luke.4¡309">handed</w>
+    <w nivId="Luke.4¡310">to</w>
+    <w nivId="Luke.4¡311">him</w>
+    <pc>.</pc>
+    <w nivId="Luke.4¡312">Unrolling</w>
+    <w nivId="Luke.4¡313">it</w>
+    <pc>,</pc>
+    <w nivId="Luke.4¡314">he</w>
+    <w nivId="Luke.4¡315">found</w>
+    <w nivId="Luke.4¡316">the</w>
+    <w nivId="Luke.4¡317">place</w>
+    <w nivId="Luke.4¡318">where</w>
+    <w nivId="Luke.4¡319">it</w>
+    <w nivId="Luke.4¡320">is</w>
+    <w nivId="Luke.4¡321">written</w>
+    <pc>:</pc>
+    <milestone unit="verse" id="Luke.4.18"/>
+    “<w nivId="Luke.4¡322">The</w>
+    <w nivId="Luke.4¡323">Spirit</w>
+    <w nivId="Luke.4¡324">of</w>
+    <w nivId="Luke.4¡325">the</w>
+    <w nivId="Luke.4¡326">Lord</w>
+    <w nivId="Luke.4¡327">is</w>
+    <w nivId="Luke.4¡328">on</w>
+    <w nivId="Luke.4¡329">me</w>
+    <pc>,</pc>
+    <w nivId="Luke.4¡330">because</w>
+    <w nivId="Luke.4¡331">he</w>
+    <w nivId="Luke.4¡332">has</w>
+    <w nivId="Luke.4¡333">anointed</w>
+    <w nivId="Luke.4¡334">me</w>
+    <w nivId="Luke.4¡335">to</w>
+    <w nivId="Luke.4¡336">proclaim</w>
+    <w nivId="Luke.4¡337">good</w>
+    <w nivId="Luke.4¡338">news</w>
+    <w nivId="Luke.4¡339">to</w>
+    <w nivId="Luke.4¡340">the</w>
+    <w nivId="Luke.4¡341">poor</w>
+    <pc>.</pc>
+    <w nivId="Luke.4¡342">He</w>
+    <w nivId="Luke.4¡343">has</w>
+    <w nivId="Luke.4¡344">sent</w>
+    <w nivId="Luke.4¡345">me</w>
+    <w nivId="Luke.4¡346">to</w>
+    <w nivId="Luke.4¡347">proclaim</w>
+    <w nivId="Luke.4¡348">freedom</w>
+    <w nivId="Luke.4¡349">for</w>
+    <w nivId="Luke.4¡350">the</w>
+    <w nivId="Luke.4¡351">prisoners</w>
+    <w nivId="Luke.4¡352">and</w>
+    <w nivId="Luke.4¡353">recovery</w>
+    <w nivId="Luke.4¡354">of</w>
+    <w nivId="Luke.4¡355">sight</w>
+    <w nivId="Luke.4¡356">for</w>
+    <w nivId="Luke.4¡357">the</w>
+    <w nivId="Luke.4¡358">blind</w>
+    <pc>,</pc>
+    <w nivId="Luke.4¡359">to</w>
+    <w nivId="Luke.4¡360">set</w>
+    <w nivId="Luke.4¡361">the</w>
+    <w nivId="Luke.4¡362">oppressed</w>
+    <w nivId="Luke.4¡363">free</w>
+    <pc>,</pc>
+    <milestone unit="verse" id="Luke.4.19"/>
+    <w nivId="Luke.4¡364">to</w>
+    <w nivId="Luke.4¡365">proclaim</w>
+    <w nivId="Luke.4¡366">the</w>
+    <w nivId="Luke.4¡367">year</w>
+    <w nivId="Luke.4¡368">of</w>
+    <w nivId="Luke.4¡369">the</w>
+    <w nivId="Luke.4¡370">Lord</w>’<w nivId="Luke.4¡371">s</w>
+    <w nivId="Luke.4¡372">favor</w>
+    <pc>.</pc>”
+    <milestone unit="verse" id="Luke.4.20"/>
+    <w nivId="Luke.4¡373">Then</w>
+    <w nivId="Luke.4¡374">he</w>
+    <w nivId="Luke.4¡375">rolled</w>
+    <w nivId="Luke.4¡376">up</w>
+    <w nivId="Luke.4¡377">the</w>
+    <w nivId="Luke.4¡378">scroll</w>
+    <pc>,</pc>
+    <w nivId="Luke.4¡379">gave</w>
+    <w nivId="Luke.4¡380">it</w>
+    <w nivId="Luke.4¡381">back</w>
+    <w nivId="Luke.4¡382">to</w>
+    <w nivId="Luke.4¡383">the</w>
+    <w nivId="Luke.4¡384">attendant</w>
+    <w nivId="Luke.4¡385">and</w>
+    <w nivId="Luke.4¡386">sat</w>
+    <w nivId="Luke.4¡387">down</w>
+    <pc>.</pc>
+    <w nivId="Luke.4¡388">The</w>
+    <w nivId="Luke.4¡389">eyes</w>
+    <w nivId="Luke.4¡390">of</w>
+    <w nivId="Luke.4¡391">everyone</w>
+    <w nivId="Luke.4¡392">in</w>
+    <w nivId="Luke.4¡393">the</w>
+    <w nivId="Luke.4¡394">synagogue</w>
+    <w nivId="Luke.4¡395">were</w>
+    <w nivId="Luke.4¡396">fastened</w>
+    <w nivId="Luke.4¡397">on</w>
+    <w nivId="Luke.4¡398">him</w>
+    <pc>.</pc>
+    <w nivId="Luke.4¡399">He</w>
+    <w nivId="Luke.4¡400">began</w>
+    <w nivId="Luke.4¡401">by</w>
+    <w nivId="Luke.4¡402">saying</w>
+    <w nivId="Luke.4¡403">to</w>
+    <w nivId="Luke.4¡404">them</w>
+    <pc>,</pc>
+    “<w nivId="Luke.4¡405">Today</w>
+    <w nivId="Luke.4¡406">this</w>
+    <w nivId="Luke.4¡407">scripture</w>
+    <w nivId="Luke.4¡408">is</w>
+    <w nivId="Luke.4¡409">fulfilled</w>
+    <w nivId="Luke.4¡410">in</w>
+    <w nivId="Luke.4¡411">your</w>
+    <w nivId="Luke.4¡412">hearing</w>
+    <pc>.</pc>”
+
+    <w nivId="Luke.4¡413">All</w>
+    <w nivId="Luke.4¡414">spoke</w>
+    <w nivId="Luke.4¡415">well</w>
+    <w nivId="Luke.4¡416">of</w>
+    <w nivId="Luke.4¡417">him</w>
+    <w nivId="Luke.4¡418">and</w>
+    <w nivId="Luke.4¡419">were</w>
+    <w nivId="Luke.4¡420">amazed</w>
+    <w nivId="Luke.4¡421">at</w>
+    <w nivId="Luke.4¡422">the</w>
+    <w nivId="Luke.4¡423">gracious</w>
+    <w nivId="Luke.4¡424">words</w>
+    <w nivId="Luke.4¡425">that</w>
+    <w nivId="Luke.4¡426">came</w>
+    <w nivId="Luke.4¡427">from</w>
+    <w nivId="Luke.4¡428">his</w>
+    <w nivId="Luke.4¡429">lips</w>
+    <pc>.</pc>
+    “<w nivId="Luke.4¡430">Isn</w>’<w nivId="Luke.4¡431">t</w>
+    <w nivId="Luke.4¡432">this</w>
+    <w nivId="Luke.4¡433">Joseph</w>’<w nivId="Luke.4¡434">s</w>
+    <w nivId="Luke.4¡435">son</w>?”
+    <w nivId="Luke.4¡436">they</w>
+    <w nivId="Luke.4¡437">asked</w>
+    <pc>.</pc>
+
+    <w nivId="Luke.4¡438">Jesus</w>
+    <w nivId="Luke.4¡439">said</w>
+    <w nivId="Luke.4¡440">to</w>
+    <w nivId="Luke.4¡441">them</w>
+    <pc>,</pc>
+    “<w nivId="Luke.4¡442">Surely</w>
+    <w nivId="Luke.4¡443">you</w>
+    <w nivId="Luke.4¡444">will</w>
+    <w nivId="Luke.4¡445">quote</w>
+    <w nivId="Luke.4¡446">this</w>
+    <w nivId="Luke.4¡447">proverb</w>
+    <w nivId="Luke.4¡448">to</w>
+    <w nivId="Luke.4¡449">me</w>
+    <pc>:</pc>
+    ‘<w nivId="Luke.4¡450">Physician</w>
+    <pc>,</pc>
+    <w nivId="Luke.4¡451">heal</w>
+    <w nivId="Luke.4¡452">yourself</w>!’
+    <w nivId="Luke.4¡453">And</w>
+    <w nivId="Luke.4¡454">you</w>
+    <w nivId="Luke.4¡455">will</w>
+    <w nivId="Luke.4¡456">tell</w>
+    <w nivId="Luke.4¡457">me</w>
+    <pc>,</pc>
+    ‘<w nivId="Luke.4¡458">Do</w>
+    <w nivId="Luke.4¡459">here</w>
+    <w nivId="Luke.4¡460">in</w>
+    <w nivId="Luke.4¡461">your</w>
+    <w nivId="Luke.4¡462">hometown</w>
+    <w nivId="Luke.4¡463">what</w>
+    <w nivId="Luke.4¡464">we</w>
+    <w nivId="Luke.4¡465">have</w>
+    <w nivId="Luke.4¡466">heard</w>
+    <w nivId="Luke.4¡467">that</w>
+    <w nivId="Luke.4¡468">you</w>
+    <w nivId="Luke.4¡469">did</w>
+    <w nivId="Luke.4¡470">in</w>
+    <w nivId="Luke.4¡471">Capernaum</w>
+    <pc>.</pc>’” “<w nivId="Luke.4¡472">Truly</w>
+    <w nivId="Luke.4¡473">I</w>
+    <w nivId="Luke.4¡474">tell</w>
+    <w nivId="Luke.4¡475">you</w>
+    <pc>,</pc>”
+    <w nivId="Luke.4¡476">he</w>
+    <w nivId="Luke.4¡477">continued</w>
+    <pc>,</pc>
+    “<w nivId="Luke.4¡478">no</w>
+    <w nivId="Luke.4¡479">prophet</w>
+    <w nivId="Luke.4¡480">is</w>
+    <w nivId="Luke.4¡481">accepted</w>
+    <w nivId="Luke.4¡482">in</w>
+    <w nivId="Luke.4¡483">his</w>
+    <w nivId="Luke.4¡484">hometown</w>
+    <pc>.</pc>
+    <w nivId="Luke.4¡485">I</w>
+    <w nivId="Luke.4¡486">assure</w>
+    <w nivId="Luke.4¡487">you</w>
+    <w nivId="Luke.4¡488">that</w>
+    <w nivId="Luke.4¡489">there</w>
+    <w nivId="Luke.4¡490">were</w>
+    <w nivId="Luke.4¡491">many</w>
+    <w nivId="Luke.4¡492">widows</w>
+    <w nivId="Luke.4¡493">in</w>
+    <w nivId="Luke.4¡494">Israel</w>
+    <w nivId="Luke.4¡495">in</w>
+    <w nivId="Luke.4¡496">Elijah</w>’<w nivId="Luke.4¡497">s</w>
+    <w nivId="Luke.4¡498">time</w>
+    <pc>,</pc>
+    <w nivId="Luke.4¡499">when</w>
+    <w nivId="Luke.4¡500">the</w>
+    <w nivId="Luke.4¡501">sky</w>
+    <w nivId="Luke.4¡502">was</w>
+    <w nivId="Luke.4¡503">shut</w>
+    <w nivId="Luke.4¡504">for</w>
+    <w nivId="Luke.4¡505">three</w>
+    <w nivId="Luke.4¡506">and</w>
+    <w nivId="Luke.4¡507">a</w>
+    <w nivId="Luke.4¡508">half</w>
+    <w nivId="Luke.4¡509">years</w>
+    <w nivId="Luke.4¡510">and</w>
+    <w nivId="Luke.4¡511">there</w>
+    <w nivId="Luke.4¡512">was</w>
+    <w nivId="Luke.4¡513">a</w>
+    <w nivId="Luke.4¡514">severe</w>
+    <w nivId="Luke.4¡515">famine</w>
+    <w nivId="Luke.4¡516">throughout</w>
+    <w nivId="Luke.4¡517">the</w>
+    <w nivId="Luke.4¡518">land</w>
+    <pc>.</pc>
+    <w nivId="Luke.4¡519">Yet</w>
+    <w nivId="Luke.4¡520">Elijah</w>
+    <w nivId="Luke.4¡521">was</w>
+    <w nivId="Luke.4¡522">not</w>
+    <w nivId="Luke.4¡523">sent</w>
+    <w nivId="Luke.4¡524">to</w>
+    <w nivId="Luke.4¡525">any</w>
+    <w nivId="Luke.4¡526">of</w>
+    <w nivId="Luke.4¡527">them</w>
+    <pc>,</pc>
+    <w nivId="Luke.4¡528">but</w>
+    <w nivId="Luke.4¡529">to</w>
+    <w nivId="Luke.4¡530">a</w>
+    <w nivId="Luke.4¡531">widow</w>
+    <w nivId="Luke.4¡532">in</w>
+    <w nivId="Luke.4¡533">Zarephath</w>
+    <w nivId="Luke.4¡534">in</w>
+    <w nivId="Luke.4¡535">the</w>
+    <w nivId="Luke.4¡536">region</w>
+    <w nivId="Luke.4¡537">of</w>
+    <w nivId="Luke.4¡538">Sidon</w>
+    <pc>.</pc>
+    <w nivId="Luke.4¡539">And</w>
+    <w nivId="Luke.4¡540">there</w>
+    <w nivId="Luke.4¡541">were</w>
+    <w nivId="Luke.4¡542">many</w>
+    <w nivId="Luke.4¡543">in</w>
+    <w nivId="Luke.4¡544">Israel</w>
+    <w nivId="Luke.4¡545">with</w>
+    <w nivId="Luke.4¡546">leprosy</w>
+    <w nivId="Luke.4¡547">in</w>
+    <w nivId="Luke.4¡548">the</w>
+    <w nivId="Luke.4¡549">time</w>
+    <w nivId="Luke.4¡550">of</w>
+    <w nivId="Luke.4¡551">Elisha</w>
+    <w nivId="Luke.4¡552">the</w>
+    <w nivId="Luke.4¡553">prophet</w>
+    <pc>,</pc>
+    <w nivId="Luke.4¡554">yet</w>
+    <w nivId="Luke.4¡555">not</w>
+    <w nivId="Luke.4¡556">one</w>
+    <w nivId="Luke.4¡557">of</w>
+    <w nivId="Luke.4¡558">them</w>
+    <w nivId="Luke.4¡559">was</w>
+    <w nivId="Luke.4¡560">cleansed—only</w>
+    <w nivId="Luke.4¡561">Naaman</w>
+    <w nivId="Luke.4¡562">the</w>
+    <w nivId="Luke.4¡563">Syrian</w>
+    <pc>.</pc>”
+
+    <w nivId="Luke.4¡564">All</w>
+    <w nivId="Luke.4¡565">the</w>
+    <w nivId="Luke.4¡566">people</w>
+    <w nivId="Luke.4¡567">in</w>
+    <w nivId="Luke.4¡568">the</w>
+    <w nivId="Luke.4¡569">synagogue</w>
+    <w nivId="Luke.4¡570">were</w>
+    <w nivId="Luke.4¡571">furious</w>
+    <w nivId="Luke.4¡572">when</w>
+    <w nivId="Luke.4¡573">they</w>
+    <w nivId="Luke.4¡574">heard</w>
+    <w nivId="Luke.4¡575">this</w>
+    <pc>.</pc>
+    <w nivId="Luke.4¡576">They</w>
+    <w nivId="Luke.4¡577">got</w>
+    <w nivId="Luke.4¡578">up</w>
+    <pc>,</pc>
+    <w nivId="Luke.4¡579">drove</w>
+    <w nivId="Luke.4¡580">him</w>
+    <w nivId="Luke.4¡581">out</w>
+    <w nivId="Luke.4¡582">of</w>
+    <w nivId="Luke.4¡583">the</w>
+    <w nivId="Luke.4¡584">town</w>
+    <pc>,</pc>
+    <w nivId="Luke.4¡585">and</w>
+    <w nivId="Luke.4¡586">took</w>
+    <w nivId="Luke.4¡587">him</w>
+    <w nivId="Luke.4¡588">to</w>
+    <w nivId="Luke.4¡589">the</w>
+    <w nivId="Luke.4¡590">brow</w>
+    <w nivId="Luke.4¡591">of</w>
+    <w nivId="Luke.4¡592">the</w>
+    <w nivId="Luke.4¡593">hill</w>
+    <w nivId="Luke.4¡594">on</w>
+    <w nivId="Luke.4¡595">which</w>
+    <w nivId="Luke.4¡596">the</w>
+    <w nivId="Luke.4¡597">town</w>
+    <w nivId="Luke.4¡598">was</w>
+    <w nivId="Luke.4¡599">built</w>
+    <pc>,</pc>
+    <w nivId="Luke.4¡600">in</w>
+    <w nivId="Luke.4¡601">order</w>
+    <w nivId="Luke.4¡602">to</w>
+    <w nivId="Luke.4¡603">throw</w>
+    <w nivId="Luke.4¡604">him</w>
+    <w nivId="Luke.4¡605">off</w>
+    <w nivId="Luke.4¡606">the</w>
+    <w nivId="Luke.4¡607">cliff</w>
+    <pc>.</pc>
+    <w nivId="Luke.4¡608">But</w>
+    <w nivId="Luke.4¡609">he</w>
+    <w nivId="Luke.4¡610">walked</w>
+    <w nivId="Luke.4¡611">right</w>
+    <w nivId="Luke.4¡612">through</w>
+    <w nivId="Luke.4¡613">the</w>
+    <w nivId="Luke.4¡614">crowd</w>
+    <w nivId="Luke.4¡615">and</w>
+    <w nivId="Luke.4¡616">went</w>
+    <w nivId="Luke.4¡617">on</w>
+    <w nivId="Luke.4¡618">his</w>
+    <w nivId="Luke.4¡619">way</w>
+    <pc>.</pc>
+  </discourseEpisode>
+  <discourseEpisode id="3">
+    <w nivId="Luke.4¡620">Then</w>
+    <w nivId="Luke.4¡621">he</w>
+    <w nivId="Luke.4¡622">went</w>
+    <w nivId="Luke.4¡623">down</w>
+    <w nivId="Luke.4¡624">to</w>
+    <w nivId="Luke.4¡625">Capernaum</w>
+    <pc>,</pc>
+    <w nivId="Luke.4¡626">a</w>
+    <w nivId="Luke.4¡627">town</w>
+    <w nivId="Luke.4¡628">in</w>
+    <w nivId="Luke.4¡629">Galilee</w>
+    <pc>,</pc>
+    <w nivId="Luke.4¡630">and</w>
+    <w nivId="Luke.4¡631">on</w>
+    <w nivId="Luke.4¡632">the</w>
+    <w nivId="Luke.4¡633">Sabbath</w>
+    <w nivId="Luke.4¡634">he</w>
+    <w nivId="Luke.4¡635">taught</w>
+    <w nivId="Luke.4¡636">the</w>
+    <w nivId="Luke.4¡637">people</w>
+    <pc>.</pc>
+    <w nivId="Luke.4¡638">They</w>
+    <w nivId="Luke.4¡639">were</w>
+    <w nivId="Luke.4¡640">amazed</w>
+    <w nivId="Luke.4¡641">at</w>
+    <w nivId="Luke.4¡642">his</w>
+    <w nivId="Luke.4¡643">teaching</w>
+    <pc>,</pc>
+    <w nivId="Luke.4¡644">because</w>
+    <w nivId="Luke.4¡645">his</w>
+    <w nivId="Luke.4¡646">words</w>
+    <w nivId="Luke.4¡647">had</w>
+    <w nivId="Luke.4¡648">authority</w>
+    <pc>.</pc>
+
+    <w nivId="Luke.4¡649">In</w>
+    <w nivId="Luke.4¡650">the</w>
+    <w nivId="Luke.4¡651">synagogue</w>
+    <w nivId="Luke.4¡652">there</w>
+    <w nivId="Luke.4¡653">was</w>
+    <w nivId="Luke.4¡654">a</w>
+    <w nivId="Luke.4¡655">man</w>
+    <w nivId="Luke.4¡656">possessed</w>
+    <w nivId="Luke.4¡657">by</w>
+    <w nivId="Luke.4¡658">a</w>
+    <w nivId="Luke.4¡659">demon</w>
+    <pc>,</pc>
+    <w nivId="Luke.4¡660">an</w>
+    <w nivId="Luke.4¡661">impure</w>
+    <w nivId="Luke.4¡662">spirit</w>
+    <pc>.</pc>
+    <w nivId="Luke.4¡663">He</w>
+    <w nivId="Luke.4¡664">cried</w>
+    <w nivId="Luke.4¡665">out</w>
+    <w nivId="Luke.4¡666">at</w>
+    <w nivId="Luke.4¡667">the</w>
+    <w nivId="Luke.4¡668">top</w>
+    <w nivId="Luke.4¡669">of</w>
+    <w nivId="Luke.4¡670">his</w>
+    <w nivId="Luke.4¡671">voice</w>
+    <pc>,</pc>
+    “<w nivId="Luke.4¡672">Go</w>
+    <w nivId="Luke.4¡673">away</w>!
+    <w nivId="Luke.4¡674">What</w>
+    <w nivId="Luke.4¡675">do</w>
+    <w nivId="Luke.4¡676">you</w>
+    <w nivId="Luke.4¡677">want</w>
+    <w nivId="Luke.4¡678">with</w>
+    <w nivId="Luke.4¡679">us</w>
+    <pc>,</pc>
+    <w nivId="Luke.4¡680">Jesus</w>
+    <w nivId="Luke.4¡681">of</w>
+    <w nivId="Luke.4¡682">Nazareth</w>?
+    <w nivId="Luke.4¡683">Have</w>
+    <w nivId="Luke.4¡684">you</w>
+    <w nivId="Luke.4¡685">come</w>
+    <w nivId="Luke.4¡686">to</w>
+    <w nivId="Luke.4¡687">destroy</w>
+    <w nivId="Luke.4¡688">us</w>?
+    <w nivId="Luke.4¡689">I</w>
+    <w nivId="Luke.4¡690">know</w>
+    <w nivId="Luke.4¡691">who</w>
+    <w nivId="Luke.4¡692">you</w>
+    <w nivId="Luke.4¡693">are—the</w>
+    <w nivId="Luke.4¡694">Holy</w>
+    <w nivId="Luke.4¡695">One</w>
+    <w nivId="Luke.4¡696">of</w>
+    <w nivId="Luke.4¡697">God</w>!” “<w nivId="Luke.4¡698">Be</w>
+    <w nivId="Luke.4¡699">quiet</w>!”
+    <w nivId="Luke.4¡700">Jesus</w>
+    <w nivId="Luke.4¡701">said</w>
+    <w nivId="Luke.4¡702">sternly</w>
+    <pc>.</pc>
+    “<w nivId="Luke.4¡703">Come</w>
+    <w nivId="Luke.4¡704">out</w>
+    <w nivId="Luke.4¡705">of</w>
+    <w nivId="Luke.4¡706">him</w>!”
+    <w nivId="Luke.4¡707">Then</w>
+    <w nivId="Luke.4¡708">the</w>
+    <w nivId="Luke.4¡709">demon</w>
+    <w nivId="Luke.4¡710">threw</w>
+    <w nivId="Luke.4¡711">the</w>
+    <w nivId="Luke.4¡712">man</w>
+    <w nivId="Luke.4¡713">down</w>
+    <w nivId="Luke.4¡714">before</w>
+    <w nivId="Luke.4¡715">them</w>
+    <w nivId="Luke.4¡716">all</w>
+    <w nivId="Luke.4¡717">and</w>
+    <w nivId="Luke.4¡718">came</w>
+    <w nivId="Luke.4¡719">out</w>
+    <w nivId="Luke.4¡720">without</w>
+    <w nivId="Luke.4¡721">injuring</w>
+    <w nivId="Luke.4¡722">him</w>
+    <pc>.</pc>
+
+    <w nivId="Luke.4¡723">All</w>
+    <w nivId="Luke.4¡724">the</w>
+    <w nivId="Luke.4¡725">people</w>
+    <w nivId="Luke.4¡726">were</w>
+    <w nivId="Luke.4¡727">amazed</w>
+    <w nivId="Luke.4¡728">and</w>
+    <w nivId="Luke.4¡729">said</w>
+    <w nivId="Luke.4¡730">to</w>
+    <w nivId="Luke.4¡731">each</w>
+    <w nivId="Luke.4¡732">other</w>
+    <pc>,</pc>
+    “<w nivId="Luke.4¡733">What</w>
+    <w nivId="Luke.4¡734">words</w>
+    <w nivId="Luke.4¡735">these</w>
+    <w nivId="Luke.4¡736">are</w>!
+    <w nivId="Luke.4¡737">With</w>
+    <w nivId="Luke.4¡738">authority</w>
+    <w nivId="Luke.4¡739">and</w>
+    <w nivId="Luke.4¡740">power</w>
+    <w nivId="Luke.4¡741">he</w>
+    <w nivId="Luke.4¡742">gives</w>
+    <w nivId="Luke.4¡743">orders</w>
+    <w nivId="Luke.4¡744">to</w>
+    <w nivId="Luke.4¡745">impure</w>
+    <w nivId="Luke.4¡746">spirits</w>
+    <w nivId="Luke.4¡747">and</w>
+    <w nivId="Luke.4¡748">they</w>
+    <w nivId="Luke.4¡749">come</w>
+    <w nivId="Luke.4¡750">out</w>!”
+    <w nivId="Luke.4¡751">And</w>
+    <w nivId="Luke.4¡752">the</w>
+    <w nivId="Luke.4¡753">news</w>
+    <w nivId="Luke.4¡754">about</w>
+    <w nivId="Luke.4¡755">him</w>
+    <w nivId="Luke.4¡756">spread</w>
+    <w nivId="Luke.4¡757">throughout</w>
+    <w nivId="Luke.4¡758">the</w>
+    <w nivId="Luke.4¡759">surrounding</w>
+    <w nivId="Luke.4¡760">area</w>
+    <pc>.</pc>
+
+    <w nivId="Luke.4¡761">Jesus</w>
+    <w nivId="Luke.4¡762">left</w>
+    <w nivId="Luke.4¡763">the</w>
+    <w nivId="Luke.4¡764">synagogue</w>
+    <w nivId="Luke.4¡765">and</w>
+    <w nivId="Luke.4¡766">went</w>
+    <w nivId="Luke.4¡767">to</w>
+    <w nivId="Luke.4¡768">the</w>
+    <w nivId="Luke.4¡769">home</w>
+    <w nivId="Luke.4¡770">of</w>
+    <w nivId="Luke.4¡771">Simon</w>
+    <pc>.</pc>
+    <w nivId="Luke.4¡772">Now</w>
+    <w nivId="Luke.4¡773">Simon</w>’<w nivId="Luke.4¡774">s</w>
+    <w nivId="Luke.4¡775">mother¡in¡law</w>
+    <w nivId="Luke.4¡776">was</w>
+    <w nivId="Luke.4¡777">suffering</w>
+    <w nivId="Luke.4¡778">from</w>
+    <w nivId="Luke.4¡779">a</w>
+    <w nivId="Luke.4¡780">high</w>
+    <w nivId="Luke.4¡781">fever</w>
+    <pc>,</pc>
+    <w nivId="Luke.4¡782">and</w>
+    <w nivId="Luke.4¡783">they</w>
+    <w nivId="Luke.4¡784">asked</w>
+    <w nivId="Luke.4¡785">Jesus</w>
+    <w nivId="Luke.4¡786">to</w>
+    <w nivId="Luke.4¡787">help</w>
+    <w nivId="Luke.4¡788">her</w>
+    <pc>.</pc>
+    <w nivId="Luke.4¡789">So</w>
+    <w nivId="Luke.4¡790">he</w>
+    <w nivId="Luke.4¡791">bent</w>
+    <w nivId="Luke.4¡792">over</w>
+    <w nivId="Luke.4¡793">her</w>
+    <w nivId="Luke.4¡794">and</w>
+    <w nivId="Luke.4¡795">rebuked</w>
+    <w nivId="Luke.4¡796">the</w>
+    <w nivId="Luke.4¡797">fever</w>
+    <pc>,</pc>
+    <w nivId="Luke.4¡798">and</w>
+    <w nivId="Luke.4¡799">it</w>
+    <w nivId="Luke.4¡800">left</w>
+    <w nivId="Luke.4¡801">her</w>
+    <pc>.</pc>
+    <w nivId="Luke.4¡802">She</w>
+    <w nivId="Luke.4¡803">got</w>
+    <w nivId="Luke.4¡804">up</w>
+    <w nivId="Luke.4¡805">at</w>
+    <w nivId="Luke.4¡806">once</w>
+    <w nivId="Luke.4¡807">and</w>
+    <w nivId="Luke.4¡808">began</w>
+    <w nivId="Luke.4¡809">to</w>
+    <w nivId="Luke.4¡810">wait</w>
+    <w nivId="Luke.4¡811">on</w>
+    <w nivId="Luke.4¡812">them</w>
+    <pc>.</pc>
+    <w nivId="Luke.4¡813">At</w>
+    <w nivId="Luke.4¡814">sunset</w>
+    <pc>,</pc>
+    <w nivId="Luke.4¡815">the</w>
+    <w nivId="Luke.4¡816">people</w>
+    <w nivId="Luke.4¡817">brought</w>
+    <w nivId="Luke.4¡818">to</w>
+    <w nivId="Luke.4¡819">Jesus</w>
+    <w nivId="Luke.4¡820">all</w>
+    <w nivId="Luke.4¡821">who</w>
+    <w nivId="Luke.4¡822">had</w>
+    <w nivId="Luke.4¡823">various</w>
+    <w nivId="Luke.4¡824">kinds</w>
+    <w nivId="Luke.4¡825">of</w>
+    <w nivId="Luke.4¡826">sickness</w>
+    <pc>,</pc>
+    <w nivId="Luke.4¡827">and</w>
+    <w nivId="Luke.4¡828">laying</w>
+    <w nivId="Luke.4¡829">his</w>
+    <w nivId="Luke.4¡830">hands</w>
+    <w nivId="Luke.4¡831">on</w>
+    <w nivId="Luke.4¡832">each</w>
+    <w nivId="Luke.4¡833">one</w>
+    <pc>,</pc>
+    <w nivId="Luke.4¡834">he</w>
+    <w nivId="Luke.4¡835">healed</w>
+    <w nivId="Luke.4¡836">them</w>
+    <pc>.</pc>
+    <w nivId="Luke.4¡837">Moreover</w>
+    <pc>,</pc>
+    <w nivId="Luke.4¡838">demons</w>
+    <w nivId="Luke.4¡839">came</w>
+    <w nivId="Luke.4¡840">out</w>
+    <w nivId="Luke.4¡841">of</w>
+    <w nivId="Luke.4¡842">many</w>
+    <w nivId="Luke.4¡843">people</w>
+    <pc>,</pc>
+    <w nivId="Luke.4¡844">shouting</w>
+    <pc>,</pc>
+    “<w nivId="Luke.4¡845">You</w>
+    <w nivId="Luke.4¡846">are</w>
+    <w nivId="Luke.4¡847">the</w>
+    <w nivId="Luke.4¡848">Son</w>
+    <w nivId="Luke.4¡849">of</w>
+    <w nivId="Luke.4¡850">God</w>!”
+    <w nivId="Luke.4¡851">But</w>
+    <w nivId="Luke.4¡852">he</w>
+    <w nivId="Luke.4¡853">rebuked</w>
+    <w nivId="Luke.4¡854">them</w>
+    <w nivId="Luke.4¡855">and</w>
+    <w nivId="Luke.4¡856">would</w>
+    <w nivId="Luke.4¡857">not</w>
+    <w nivId="Luke.4¡858">allow</w>
+    <w nivId="Luke.4¡859">them</w>
+    <w nivId="Luke.4¡860">to</w>
+    <w nivId="Luke.4¡861">speak</w>
+    <pc>,</pc>
+    <w nivId="Luke.4¡862">because</w>
+    <w nivId="Luke.4¡863">they</w>
+    <w nivId="Luke.4¡864">knew</w>
+    <w nivId="Luke.4¡865">he</w>
+    <w nivId="Luke.4¡866">was</w>
+    <w nivId="Luke.4¡867">the</w>
+    <w nivId="Luke.4¡868">Messiah</w>
+    <pc>.</pc>
+
+    <w nivId="Luke.4¡869">At</w>
+    <w nivId="Luke.4¡870">daybreak</w>
+    <pc>,</pc>
+    <w nivId="Luke.4¡871">Jesus</w>
+    <w nivId="Luke.4¡872">went</w>
+    <w nivId="Luke.4¡873">out</w>
+    <w nivId="Luke.4¡874">to</w>
+    <w nivId="Luke.4¡875">a</w>
+    <w nivId="Luke.4¡876">solitary</w>
+    <w nivId="Luke.4¡877">place</w>
+    <pc>.</pc>
+    <w nivId="Luke.4¡878">The</w>
+    <w nivId="Luke.4¡879">people</w>
+    <w nivId="Luke.4¡880">were</w>
+    <w nivId="Luke.4¡881">looking</w>
+    <w nivId="Luke.4¡882">for</w>
+    <w nivId="Luke.4¡883">him</w>
+    <w nivId="Luke.4¡884">and</w>
+    <w nivId="Luke.4¡885">when</w>
+    <w nivId="Luke.4¡886">they</w>
+    <w nivId="Luke.4¡887">came</w>
+    <w nivId="Luke.4¡888">to</w>
+    <w nivId="Luke.4¡889">where</w>
+    <w nivId="Luke.4¡890">he</w>
+    <w nivId="Luke.4¡891">was</w>
+    <pc>,</pc>
+    <w nivId="Luke.4¡892">they</w>
+    <w nivId="Luke.4¡893">tried</w>
+    <w nivId="Luke.4¡894">to</w>
+    <w nivId="Luke.4¡895">keep</w>
+    <w nivId="Luke.4¡896">him</w>
+    <w nivId="Luke.4¡897">from</w>
+    <w nivId="Luke.4¡898">leaving</w>
+    <w nivId="Luke.4¡899">them</w>
+    <pc>.</pc>
+    <w nivId="Luke.4¡900">But</w>
+    <w nivId="Luke.4¡901">he</w>
+    <w nivId="Luke.4¡902">said</w>
+    <pc>,</pc>
+    “<w nivId="Luke.4¡903">I</w>
+    <w nivId="Luke.4¡904">must</w>
+    <w nivId="Luke.4¡905">proclaim</w>
+    <w nivId="Luke.4¡906">the</w>
+    <w nivId="Luke.4¡907">good</w>
+    <w nivId="Luke.4¡908">news</w>
+    <w nivId="Luke.4¡909">of</w>
+    <w nivId="Luke.4¡910">the</w>
+    <w nivId="Luke.4¡911">kingdom</w>
+    <w nivId="Luke.4¡912">of</w>
+    <w nivId="Luke.4¡913">God</w>
+    <w nivId="Luke.4¡914">to</w>
+    <w nivId="Luke.4¡915">the</w>
+    <w nivId="Luke.4¡916">other</w>
+    <w nivId="Luke.4¡917">towns</w>
+    <w nivId="Luke.4¡918">also</w>
+    <pc>,</pc>
+    <w nivId="Luke.4¡919">because</w>
+    <w nivId="Luke.4¡920">that</w>
+    <w nivId="Luke.4¡921">is</w>
+    <w nivId="Luke.4¡922">why</w>
+    <w nivId="Luke.4¡923">I</w>
+    <w nivId="Luke.4¡924">was</w>
+    <w nivId="Luke.4¡925">sent</w>
+    <pc>.</pc>”
+    <w nivId="Luke.4¡926">And</w>
+    <w nivId="Luke.4¡927">he</w>
+    <w nivId="Luke.4¡928">kept</w>
+    <w nivId="Luke.4¡929">on</w>
+    <w nivId="Luke.4¡930">preaching</w>
+    <w nivId="Luke.4¡931">in</w>
+    <w nivId="Luke.4¡932">the</w>
+    <w nivId="Luke.4¡933">synagogues</w>
+    <w nivId="Luke.4¡934">of</w>
+    <w nivId="Luke.4¡935">Judea</w>
+    <pc>.</pc>
+  </discourseEpisode>
+</corpus>
