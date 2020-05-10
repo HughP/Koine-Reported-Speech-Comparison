@@ -99,7 +99,7 @@ Therefore, it would be useful to mark up all text units with their purpose. For 
 ```
 discourseRole: Narration, Speech Event
 ```
-Note that `Speech Orienters` would still be marked as Narration! reportedSpeech and Narration are not mutually exclusive categories. This leads to an issue in [Overlapping Markup](https://en.wikipedia.org/wiki/Overlapping_markup)
+Note that `Speech Orienters` would still be marked as Narration! reportedSpeech and Narration are not mutually exclusive categories. This leads to an issue in [Overlapping Markup](https://en.wikipedia.org/wiki/Overlapping_markup).
 
 ### Purpose
 
@@ -127,14 +127,28 @@ If each word of the corpus is numbered with a unique ID then a second element ca
 ### Things
 
 Broadly speaking: `Things` need to be categorized. I am not sure if this happens in the corpus or if this happens in a dictionary to which the corpus is dynamically linked (as in Linked Data linked). In dealing with pronouns, it would be very helpful if `people` and `places` had specific ID's (which are dereferenceable) worked out based on semantics (rather than Strong's numbers). One option, which I'm not a particular fan of is using something like  `sameAs: "WikiDataID"`. I am not a fan of using WikiData for two reasons:
-1. the entries in WikiData seem to evolve without constraint, part of that evolution is that entities are unconstrained and under-defined. For example, an entity might be about a concept and also have a painting, which the painter says is about the concept. Really the concept is the subject of the painting, but the painting is its own "thing"; another part of the evolution is that some entities are redirected to newer endpoints when concepts are merged.
-2. Concepts as a dereferenceable entity should be rooted in the linguistics and the cognitive expression the author is trying to evoke to their audience. It is not always clear how to do this with WikiData, where the endpoints are not under the editorial authority or practice of a source control (opinion).
+1. the entries in WikiData seem to evolve without constraint, specifically the concepts may split or be deleted. This means that each concept adopted for my project might have a derefrencable ID, but it does not mean that that ID will continue to be the recomended or socially popular ID. Though it will likely remaine usable as an ID.
+2. Concepts as a dereferenceable entity should be rooted in the linguistics and the cognitive expression the author is trying to evoke to their audience. It is not always clear how to do this with WikiData, where the endpoints are not under the editorial authority or practice of a source control by the using project. So, it might be better for a project to define its own IDs and then link those to WikiIDs.
 
+With this in mind to primary options for markup come to mind:
 
+1. Add markup attributes to word level tags. Such as the following:
 
-```
+ ```
 <w thingType="person" sameAs="Q302" id="" wordAnchorID="" referenceType="Name">Jesus</w>
 ```
+
+ This is rejected on the grounds that sometimes sets of word comprise a single semantic entity or thing to be ID'd. For example, `Lamb of God` is arguably a single entity, at the mental concept level.
+
+2. Use parent/child xml structures. This is demonstrated in the following example.
+  ```
+<entityType="dsupremeDeity" sameAs="http://www.wikidata.org/entity/Q302" referenceType="name|" id="" uuid="" semanticClauseRole="Theme"><w>Jesus</w></entityType>
+```
+ Additionally, some languages will have clitics and morphology which will point to other words without the whole word functioning as a reverencer. In this way I would assume that `<w></w>` tags can be parents of morphology tags.
+
+  A sub option of this strategy is to use different types of tags like: `<thing>`. `<place>` or `<person>`, as this was my first thought, but then I thought that perhaps the queries might become cumbersome.
+
+#### Outstanding questions related to things
 
 How do I handle titles? "Lamb of God" --> Jesus or Jesus(entity) <-- Jesus(person) <-- LambOfGod(title). Each of these concepts can be and are unique.
 
@@ -270,6 +284,7 @@ All the people in the synagogue were furious when they heard this. <structureTag
 <structureTag type="end" unit="chapter" unitID="4"></structureTag>
 </discourseEpisode>
 </corpus>
+
 
 ```
 ## Bibliography
