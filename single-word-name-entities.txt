@@ -7,5 +7,7 @@ name place Zarephath http://www.wikidata.org/entity/Q616837
 name place Sidon https://www.wikidata.org/wiki/Q163490
 name person Luke http://www.wikidata.org/entity/Q128538
 name supremeDeity Jesus http://www.wikidata.org/entity/Q302
-name person Elija http://www.wikidata.org/entity/Q133507
+name person Elijah http://www.wikidata.org/entity/Q133507
 name person Elisha http://www.wikidata.org/entity/Q206238
+name person Simon http://www.wikidata.org/entity/Q33923
+name place Israel http://www.wikidata.org/entity/Q230407

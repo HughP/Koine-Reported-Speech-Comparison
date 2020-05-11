@@ -1,0 +1,11 @@
+
+name supremeDeity Holy Spirit http://www.wikidata.org/entity/Q37302
+name celestialBeing The Devil http://www.wikidata.org/entity/Q6674
+name celestialBeing the devil http://www.wikidata.org/entity/Q6674
+name celestialBeing the Devil http://www.wikidata.org/entity/Q6674
+name celestialBeing The devil http://www.wikidata.org/entity/Q6674
+name place the Jordan http://www.wikidata.org/entity/Q40059
+description place the wilderness http://www.wikidata.org/entity/Q10742877
+familialRelationship person Simon's mother-in-law http://www.wikidata.org/entity/Q23581940
+familialRelationship person Joseph's son http://www.wikidata.org/entity/Q302
+title person the Messiah http://www.wikidata.org/entity/Q302

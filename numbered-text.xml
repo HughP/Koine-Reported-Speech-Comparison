@@ -3,17 +3,29 @@
 <milestone unit="chapter" id="Luke.4" />
 <discourseEpisode id="1">
 <milestone unit="verse" id="Luke.4.1" />
-<entityType type="supremeDeity" sameAs="http://www.wikidata.org/entity/Q302" referenceType="name" id="" uuid="" semanticClauseRole="Theme|Agent|Loc"><w nivId="Luke.4¡1">Jesus</w></entityType>
+<entityType type="supremeDeity"
+sameAs="http://www.wikidata.org/entity/Q302" referenceType="name"
+id="" uuid="" semanticClauseRole="Theme|Agent|Loc">
+<w nivId="Luke.4¡1">Jesus</w>
+</entityType>
 <pc>,</pc>
 <w nivId="Luke.4¡2">full</w>
 <w nivId="Luke.4¡3">of</w>
 <w nivId="Luke.4¡4">the</w>
+<entityType type="supremeDeity"
+sameAs="http://www.wikidata.org/entity/Q37302" referenceType="name"
+id="" uuid="" semanticClauseRole="Theme|Agent|Loc">
 <w nivId="Luke.4¡5">Holy</w>
 <w nivId="Luke.4¡6">Spirit</w>
+</entityType>
 <pc>,</pc>
 <w nivId="Luke.4¡7">left</w>
+<entityType type="place"
+sameAs="http://www.wikidata.org/entity/Q40059" referenceType="name"
+id="" uuid="" semanticClauseRole="Theme|Agent|Loc">
 <w nivId="Luke.4¡8">the</w>
 <w nivId="Luke.4¡9">Jordan</w>
+</entityType>
 <w nivId="Luke.4¡10">and</w>
 <w nivId="Luke.4¡11">was</w>
 <w nivId="Luke.4¡12">led</w>
@@ -34,8 +46,12 @@
 <w nivId="Luke.4¡25">tempted</w>
 <quote source=""></quote>
 <w nivId="Luke.4¡26">by</w>
+<entityType type="celestialBeing"
+sameAs="http://www.wikidata.org/entity/Q6674" referenceType="name"
+id="" uuid="" semanticClauseRole="Theme|Agent|Loc">
 <w nivId="Luke.4¡27">the</w>
 <w nivId="Luke.4¡28">devil</w>
+</entityType>
 <pc>.</pc>
 <w nivId="Luke.4¡29">He</w>
 <w nivId="Luke.4¡30">ate</w>
@@ -60,7 +76,7 @@
 <w nivId="Luke.4¡46">said</w>
 <w nivId="Luke.4¡47">to</w>
 <w nivId="Luke.4¡48">him</w>
-<pc>,</pc>“
+<pc>,</pc>“ 
 <w nivId="Luke.4¡49">If</w>
 <w nivId="Luke.4¡50">you</w>
 <w nivId="Luke.4¡51">are</w>
@@ -75,15 +91,19 @@
 <w nivId="Luke.4¡59">to</w>
 <w nivId="Luke.4¡60">become</w>
 <w nivId="Luke.4¡61">bread</w>
-<pc>.</pc>”
+<pc>.</pc>” 
 <milestone unit="verse" id="Luke.4.4" />
-<entityType type="supremeDeity" sameAs="http://www.wikidata.org/entity/Q302" referenceType="name" id="" uuid="" semanticClauseRole="Theme|Agent|Loc"><w nivId="Luke.4¡62">Jesus</w></entityType>
+<entityType type="supremeDeity"
+sameAs="http://www.wikidata.org/entity/Q302" referenceType="name"
+id="" uuid="" semanticClauseRole="Theme|Agent|Loc">
+<w nivId="Luke.4¡62">Jesus</w>
+</entityType>
 <w nivId="Luke.4¡63">answered</w>
-<pc>,</pc>“
+<pc>,</pc>“ 
 <w nivId="Luke.4¡64">It</w>
 <w nivId="Luke.4¡65">is</w>
 <w nivId="Luke.4¡66">written</w>
-<pc>:</pc>‘
+<pc>:</pc>‘ 
 <w nivId="Luke.4¡67">Man</w>
 <w nivId="Luke.4¡68">shall</w>
 <w nivId="Luke.4¡69">not</w>
@@ -91,11 +111,15 @@
 <w nivId="Luke.4¡71">on</w>
 <w nivId="Luke.4¡72">bread</w>
 <w nivId="Luke.4¡73">alone</w>
-<pc>.</pc>’
-<quote source=""></quote>”
+<pc>.</pc>’ 
+<quote source=""></quote>” 
 <milestone unit="verse" id="Luke.4.5" />
+<entityType type="celestialBeing"
+sameAs="http://www.wikidata.org/entity/Q6674" referenceType="name"
+id="" uuid="" semanticClauseRole="Theme|Agent|Loc">
 <w nivId="Luke.4¡74">The</w>
 <w nivId="Luke.4¡75">devil</w>
+</entityType>
 <w nivId="Luke.4¡76">led</w>
 <w nivId="Luke.4¡77">him</w>
 <w nivId="Luke.4¡78">up</w>
@@ -122,7 +146,7 @@
 <w nivId="Luke.4¡97">said</w>
 <w nivId="Luke.4¡98">to</w>
 <w nivId="Luke.4¡99">him</w>
-<pc>,</pc>“
+<pc>,</pc>“ 
 <w nivId="Luke.4¡100">I</w>
 <w nivId="Luke.4¡101">will</w>
 <w nivId="Luke.4¡102">give</w>
@@ -162,15 +186,19 @@
 <w nivId="Luke.4¡131">all</w>
 <w nivId="Luke.4¡132">be</w>
 <w nivId="Luke.4¡133">yours</w>
-<pc>.</pc>”
+<pc>.</pc>” 
 <milestone unit="verse" id="Luke.4.8" />
-<entityType type="supremeDeity" sameAs="http://www.wikidata.org/entity/Q302" referenceType="name" id="" uuid="" semanticClauseRole="Theme|Agent|Loc"><w nivId="Luke.4¡134">Jesus</w></entityType>
+<entityType type="supremeDeity"
+sameAs="http://www.wikidata.org/entity/Q302" referenceType="name"
+id="" uuid="" semanticClauseRole="Theme|Agent|Loc">
+<w nivId="Luke.4¡134">Jesus</w>
+</entityType>
 <w nivId="Luke.4¡135">answered</w>
-<pc>,</pc>“
+<pc>,</pc>“ 
 <w nivId="Luke.4¡136">It</w>
 <w nivId="Luke.4¡137">is</w>
 <w nivId="Luke.4¡138">written</w>
-<pc>:</pc>‘
+<pc>:</pc>‘ 
 <w nivId="Luke.4¡139">Worship</w>
 <w nivId="Luke.4¡140">the</w>
 <w nivId="Luke.4¡141">Lord</w>
@@ -180,15 +208,19 @@
 <w nivId="Luke.4¡145">serve</w>
 <w nivId="Luke.4¡146">him</w>
 <w nivId="Luke.4¡147">only</w>
-<pc>.</pc>’
-<quote source=""></quote>”
+<pc>.</pc>’ 
+<quote source=""></quote>” 
 <milestone unit="verse" id="Luke.4.9" />
 <w nivId="Luke.4¡148">The</w>
 <w nivId="Luke.4¡149">devil</w>
 <w nivId="Luke.4¡150">led</w>
 <w nivId="Luke.4¡151">him</w>
 <w nivId="Luke.4¡152">to</w>
-<entityType type="place" sameAs="http://www.wikidata.org/entity/Q1218" referenceType="name" id="" uuid="" semanticClauseRole="Theme|Agent|Loc"><w nivId="Luke.4¡153">Jerusalem</w></entityType>
+<entityType type="place"
+sameAs="http://www.wikidata.org/entity/Q1218" referenceType="name"
+id="" uuid="" semanticClauseRole="Theme|Agent|Loc">
+<w nivId="Luke.4¡153">Jerusalem</w>
+</entityType>
 <w nivId="Luke.4¡154">and</w>
 <w nivId="Luke.4¡155">had</w>
 <w nivId="Luke.4¡156">him</w>
@@ -200,7 +232,7 @@
 <w nivId="Luke.4¡162">of</w>
 <w nivId="Luke.4¡163">the</w>
 <w nivId="Luke.4¡164">temple</w>
-<pc>.</pc>“
+<pc>.</pc>“ 
 <w nivId="Luke.4¡165">If</w>
 <w nivId="Luke.4¡166">you</w>
 <w nivId="Luke.4¡167">are</w>
@@ -211,7 +243,7 @@
 <pc>,</pc>” 
 <w nivId="Luke.4¡172">he</w>
 <w nivId="Luke.4¡173">said</w>
-<pc>,</pc>“
+<pc>,</pc>“ 
 <w nivId="Luke.4¡174">throw</w>
 <w nivId="Luke.4¡175">yourself</w>
 <w nivId="Luke.4¡176">down</w>
@@ -223,7 +255,7 @@
 <w nivId="Luke.4¡180">it</w>
 <w nivId="Luke.4¡181">is</w>
 <w nivId="Luke.4¡182">written</w>
-<pc>:</pc>“‘
+<pc>:</pc>“‘ 
 <w nivId="Luke.4¡183">He</w>
 <w nivId="Luke.4¡184">will</w>
 <w nivId="Luke.4¡185">command</w>
@@ -257,16 +289,20 @@
 <w nivId="Luke.4¡210">against</w>
 <w nivId="Luke.4¡211">a</w>
 <w nivId="Luke.4¡212">stone</w>
-<pc>.</pc>’
-<quote source=""></quote>”
+<pc>.</pc>’ 
+<quote source=""></quote>” 
 <milestone unit="verse" id="Luke.4.12" />
-<entityType type="supremeDeity" sameAs="http://www.wikidata.org/entity/Q302" referenceType="name" id="" uuid="" semanticClauseRole="Theme|Agent|Loc"><w nivId="Luke.4¡213">Jesus</w></entityType>
+<entityType type="supremeDeity"
+sameAs="http://www.wikidata.org/entity/Q302" referenceType="name"
+id="" uuid="" semanticClauseRole="Theme|Agent|Loc">
+<w nivId="Luke.4¡213">Jesus</w>
+</entityType>
 <w nivId="Luke.4¡214">answered</w>
-<pc>,</pc>“
+<pc>,</pc>“ 
 <w nivId="Luke.4¡215">It</w>
 <w nivId="Luke.4¡216">is</w>
 <w nivId="Luke.4¡217">said</w>
-<pc>:</pc>‘
+<pc>:</pc>‘ 
 <w nivId="Luke.4¡218">Do</w>
 <w nivId="Luke.4¡219">not</w>
 <w nivId="Luke.4¡220">put</w>
@@ -277,8 +313,8 @@
 <w nivId="Luke.4¡225">to</w>
 <w nivId="Luke.4¡226">the</w>
 <w nivId="Luke.4¡227">test</w>
-<pc>.</pc>’
-<quote source=""></quote>”
+<pc>.</pc>’ 
+<quote source=""></quote>” 
 <milestone unit="verse" id="Luke.4.13" />
 <w nivId="Luke.4¡228">When</w>
 <w nivId="Luke.4¡229">the</w>
@@ -296,14 +332,21 @@
 <w nivId="Luke.4¡240">an</w>
 <w nivId="Luke.4¡241">opportune</w>
 <w nivId="Luke.4¡242">time</w>
-<pc>.</pc>
-</discourseEpisode>
+<pc>.</pc></discourseEpisode>
 <discourseEpisode id="2">
 <milestone unit="verse" id="Luke.4.14" />
-<entityType type="supremeDeity" sameAs="http://www.wikidata.org/entity/Q302" referenceType="name" id="" uuid="" semanticClauseRole="Theme|Agent|Loc"><w nivId="Luke.4¡243">Jesus</w></entityType>
+<entityType type="supremeDeity"
+sameAs="http://www.wikidata.org/entity/Q302" referenceType="name"
+id="" uuid="" semanticClauseRole="Theme|Agent|Loc">
+<w nivId="Luke.4¡243">Jesus</w>
+</entityType>
 <w nivId="Luke.4¡244">returned</w>
 <w nivId="Luke.4¡245">to</w>
-<entityType type="place" sameAs="http://www.wikidata.org/entity/Q83241" referenceType="name" id="" uuid="" semanticClauseRole="Theme|Agent|Loc"><w nivId="Luke.4¡246">Galilee</w></entityType>
+<entityType type="place"
+sameAs="http://www.wikidata.org/entity/Q83241" referenceType="name"
+id="" uuid="" semanticClauseRole="Theme|Agent|Loc">
+<w nivId="Luke.4¡246">Galilee</w>
+</entityType>
 <w nivId="Luke.4¡247">in</w>
 <w nivId="Luke.4¡248">the</w>
 <w nivId="Luke.4¡249">power</w>
@@ -338,7 +381,12 @@
 <w nivId="Luke.4¡272">He</w>
 <w nivId="Luke.4¡273">went</w>
 <w nivId="Luke.4¡274">to</w>
-<entityType type="place" sameAs="http://www.wikidata.org/entity/Q430776" referenceType="name" id="" uuid="" semanticClauseRole="Theme|Agent|Loc"><w nivId="Luke.4¡275">Nazareth</w></entityType>
+<entityType type="place"
+sameAs="http://www.wikidata.org/entity/Q430776"
+referenceType="name" id="" uuid=""
+semanticClauseRole="Theme|Agent|Loc">
+<w nivId="Luke.4¡275">Nazareth</w>
+</entityType>
 <pc>,</pc>
 <w nivId="Luke.4¡276">where</w>
 <w nivId="Luke.4¡277">he</w>
@@ -394,7 +442,7 @@
 <w nivId="Luke.4¡320">is</w>
 <w nivId="Luke.4¡321">written</w>
 <pc>:</pc>
-<milestone unit="verse" id="Luke.4.18" />“
+<milestone unit="verse" id="Luke.4.18" />“ 
 <w nivId="Luke.4¡322">The</w>
 <w nivId="Luke.4¡323">Spirit</w>
 <w nivId="Luke.4¡324">of</w>
@@ -450,7 +498,7 @@
 <w nivId="Luke.4¡369">the</w>
 <w nivId="Luke.4¡370">Lord's</w>
 <w nivId="Luke.4¡371">favor</w>
-<pc>.</pc>”
+<pc>.</pc>” 
 <quote source=""></quote>
 <milestone unit="verse" id="Luke.4.20" />
 <w nivId="Luke.4¡372">Then</w>
@@ -489,7 +537,7 @@
 <w nivId="Luke.4¡401">saying</w>
 <w nivId="Luke.4¡402">to</w>
 <w nivId="Luke.4¡403">them</w>
-<pc>,</pc>“
+<pc>,</pc>“ 
 <w nivId="Luke.4¡404">Today</w>
 <w nivId="Luke.4¡405">this</w>
 <w nivId="Luke.4¡406">scripture</w>
@@ -498,7 +546,7 @@
 <w nivId="Luke.4¡409">in</w>
 <w nivId="Luke.4¡410">your</w>
 <w nivId="Luke.4¡411">hearing</w>
-<pc>.</pc>”
+<pc>.</pc>” 
 <milestone unit="verse" id="Luke.4.22" />
 <w nivId="Luke.4¡412">All</w>
 <w nivId="Luke.4¡413">spoke</w>
@@ -517,21 +565,35 @@
 <w nivId="Luke.4¡426">from</w>
 <w nivId="Luke.4¡427">his</w>
 <w nivId="Luke.4¡428">lips</w>
-<pc>.</pc>“
+<pc>.</pc>“ 
 <w nivId="Luke.4¡429">Isn't</w>
 <w nivId="Luke.4¡430">this</w>
+<entityType type="person"
+sameAs="http://www.wikidata.org/entity/Q302"
+referenceType="familialRelationship" id="" uuid=""
+semanticClauseRole="Theme|Agent|Loc">
+<entityType type="person"
+sameAs="http://www.wikidata.org/entity/Q128267"
+referenceType="name" id="" uuid=""
+semanticClauseRole="Theme|Agent|Loc">
 <w nivId="Luke.4¡431">Joseph's</w>
+</entityType>
 <w nivId="Luke.4¡432">son</w>
+</entityType>
 <pc>?</pc>” 
 <w nivId="Luke.4¡433">they</w>
 <w nivId="Luke.4¡434">asked</w>
 <pc>.</pc>
 <milestone unit="verse" id="Luke.4.23" />
-<entityType type="supremeDeity" sameAs="http://www.wikidata.org/entity/Q302" referenceType="name" id="" uuid="" semanticClauseRole="Theme|Agent|Loc"><w nivId="Luke.4¡435">Jesus</w></entityType>
+<entityType type="supremeDeity"
+sameAs="http://www.wikidata.org/entity/Q302" referenceType="name"
+id="" uuid="" semanticClauseRole="Theme|Agent|Loc">
+<w nivId="Luke.4¡435">Jesus</w>
+</entityType>
 <w nivId="Luke.4¡436">said</w>
 <w nivId="Luke.4¡437">to</w>
 <w nivId="Luke.4¡438">them</w>
-<pc>,</pc>“
+<pc>,</pc>“ 
 <w nivId="Luke.4¡439">Surely</w>
 <w nivId="Luke.4¡440">you</w>
 <w nivId="Luke.4¡441">will</w>
@@ -540,7 +602,7 @@
 <w nivId="Luke.4¡444">proverb</w>
 <w nivId="Luke.4¡445">to</w>
 <w nivId="Luke.4¡446">me</w>
-<pc>:</pc>‘
+<pc>:</pc>‘ 
 <w nivId="Luke.4¡447">Physician</w>
 <pc>,</pc>
 <w nivId="Luke.4¡448">heal</w>
@@ -551,7 +613,7 @@
 <w nivId="Luke.4¡452">will</w>
 <w nivId="Luke.4¡453">tell</w>
 <w nivId="Luke.4¡454">me</w>
-<pc>,</pc>‘
+<pc>,</pc>‘ 
 <w nivId="Luke.4¡455">Do</w>
 <w nivId="Luke.4¡456">here</w>
 <w nivId="Luke.4¡457">in</w>
@@ -565,9 +627,13 @@
 <w nivId="Luke.4¡465">you</w>
 <w nivId="Luke.4¡466">did</w>
 <w nivId="Luke.4¡467">in</w>
-<entityType type="place" sameAs="http://www.wikidata.org/entity/Q59174" referenceType="name" id="" uuid="" semanticClauseRole="Theme|Agent|Loc"><w nivId="Luke.4¡468">Capernaum</w></entityType>
-<pc>.</pc>’”
-<milestone unit="verse" id="Luke.4.24" />“
+<entityType type="place"
+sameAs="http://www.wikidata.org/entity/Q59174" referenceType="name"
+id="" uuid="" semanticClauseRole="Theme|Agent|Loc">
+<w nivId="Luke.4¡468">Capernaum</w>
+</entityType>
+<pc>.</pc>’” 
+<milestone unit="verse" id="Luke.4.24" />“ 
 <w nivId="Luke.4¡469">Truly</w>
 <w nivId="Luke.4¡470">I</w>
 <w nivId="Luke.4¡471">tell</w>
@@ -575,7 +641,7 @@
 <pc>,</pc>” 
 <w nivId="Luke.4¡473">he</w>
 <w nivId="Luke.4¡474">continued</w>
-<pc>,</pc>“
+<pc>,</pc>“ 
 <w nivId="Luke.4¡475">no</w>
 <w nivId="Luke.4¡476">prophet</w>
 <w nivId="Luke.4¡477">is</w>
@@ -594,9 +660,19 @@
 <w nivId="Luke.4¡488">many</w>
 <w nivId="Luke.4¡489">widows</w>
 <w nivId="Luke.4¡490">in</w>
+<entityType type="place"
+sameAs="http://www.wikidata.org/entity/Q230407"
+referenceType="name" id="" uuid=""
+semanticClauseRole="Theme|Agent|Loc">
 <w nivId="Luke.4¡491">Israel</w>
+</entityType>
 <w nivId="Luke.4¡492">in</w>
+<entityType type="person"
+sameAs="http://www.wikidata.org/entity/Q133507"
+referenceType="name" id="" uuid=""
+semanticClauseRole="Theme|Agent|Loc">
 <w nivId="Luke.4¡493">Elijah's</w>
+</entityType>
 <w nivId="Luke.4¡494">time</w>
 <pc>,</pc>
 <w nivId="Luke.4¡495">when</w>
@@ -622,7 +698,12 @@
 <pc>.</pc>
 <milestone unit="verse" id="Luke.4.26" />
 <w nivId="Luke.4¡515">Yet</w>
+<entityType type="person"
+sameAs="http://www.wikidata.org/entity/Q133507"
+referenceType="name" id="" uuid=""
+semanticClauseRole="Theme|Agent|Loc">
 <w nivId="Luke.4¡516">Elijah</w>
+</entityType>
 <w nivId="Luke.4¡517">was</w>
 <w nivId="Luke.4¡518">not</w>
 <w nivId="Luke.4¡519">sent</w>
@@ -636,12 +717,21 @@
 <w nivId="Luke.4¡526">a</w>
 <w nivId="Luke.4¡527">widow</w>
 <w nivId="Luke.4¡528">in</w>
-<entityType type="place" sameAs="http://www.wikidata.org/entity/Q616837" referenceType="name" id="" uuid="" semanticClauseRole="Theme|Agent|Loc"><w nivId="Luke.4¡529">Zarephath</w></entityType>
+<entityType type="place"
+sameAs="http://www.wikidata.org/entity/Q616837"
+referenceType="name" id="" uuid=""
+semanticClauseRole="Theme|Agent|Loc">
+<w nivId="Luke.4¡529">Zarephath</w>
+</entityType>
 <w nivId="Luke.4¡530">in</w>
 <w nivId="Luke.4¡531">the</w>
 <w nivId="Luke.4¡532">region</w>
 <w nivId="Luke.4¡533">of</w>
-<entityType type="place" sameAs="https://www.wikidata.org/wiki/Q163490" referenceType="name" id="" uuid="" semanticClauseRole="Theme|Agent|Loc"><w nivId="Luke.4¡534">Sidon</w></entityType>
+<entityType type="place"
+sameAs="https://www.wikidata.org/wiki/Q163490" referenceType="name"
+id="" uuid="" semanticClauseRole="Theme|Agent|Loc">
+<w nivId="Luke.4¡534">Sidon</w>
+</entityType>
 <pc>.</pc>
 <milestone unit="verse" id="Luke.4.27" />
 <w nivId="Luke.4¡535">And</w>
@@ -649,7 +739,12 @@
 <w nivId="Luke.4¡537">were</w>
 <w nivId="Luke.4¡538">many</w>
 <w nivId="Luke.4¡539">in</w>
+<entityType type="place"
+sameAs="http://www.wikidata.org/entity/Q230407"
+referenceType="name" id="" uuid=""
+semanticClauseRole="Theme|Agent|Loc">
 <w nivId="Luke.4¡540">Israel</w>
+</entityType>
 <w nivId="Luke.4¡541">with</w>
 <w nivId="Luke.4¡542">leprosy</w>
 <quote source=""></quote>
@@ -657,7 +752,12 @@
 <w nivId="Luke.4¡544">the</w>
 <w nivId="Luke.4¡545">time</w>
 <w nivId="Luke.4¡546">of</w>
-<entityType type="person" sameAs="http://www.wikidata.org/entity/Q206238" referenceType="name" id="" uuid="" semanticClauseRole="Theme|Agent|Loc"><w nivId="Luke.4¡547">Elisha</w></entityType>
+<entityType type="person"
+sameAs="http://www.wikidata.org/entity/Q206238"
+referenceType="name" id="" uuid=""
+semanticClauseRole="Theme|Agent|Loc">
+<w nivId="Luke.4¡547">Elisha</w>
+</entityType>
 <w nivId="Luke.4¡548">the</w>
 <w nivId="Luke.4¡549">prophet</w>
 <pc>,</pc>
@@ -673,7 +773,7 @@
 <w nivId="Luke.4¡558">Naaman</w>
 <w nivId="Luke.4¡559">the</w>
 <w nivId="Luke.4¡560">Syrian</w>
-<pc>.</pc>”
+<pc>.</pc>” 
 <milestone unit="verse" id="Luke.4.28" />
 <w nivId="Luke.4¡561">All</w>
 <w nivId="Luke.4¡562">the</w>
@@ -738,8 +838,7 @@
 <w nivId="Luke.4¡614">on</w>
 <w nivId="Luke.4¡615">his</w>
 <w nivId="Luke.4¡616">way</w>
-<pc>.</pc>
-</discourseEpisode>
+<pc>.</pc></discourseEpisode>
 <discourseEpisode id="3">
 <milestone unit="verse" id="Luke.4.31" />
 <w nivId="Luke.4¡617">Then</w>
@@ -747,12 +846,20 @@
 <w nivId="Luke.4¡619">went</w>
 <w nivId="Luke.4¡620">down</w>
 <w nivId="Luke.4¡621">to</w>
-<entityType type="place" sameAs="http://www.wikidata.org/entity/Q59174" referenceType="name" id="" uuid="" semanticClauseRole="Theme|Agent|Loc"><w nivId="Luke.4¡622">Capernaum</w></entityType>
+<entityType type="place"
+sameAs="http://www.wikidata.org/entity/Q59174" referenceType="name"
+id="" uuid="" semanticClauseRole="Theme|Agent|Loc">
+<w nivId="Luke.4¡622">Capernaum</w>
+</entityType>
 <pc>,</pc>
 <w nivId="Luke.4¡623">a</w>
 <w nivId="Luke.4¡624">town</w>
 <w nivId="Luke.4¡625">in</w>
-<entityType type="place" sameAs="http://www.wikidata.org/entity/Q83241" referenceType="name" id="" uuid="" semanticClauseRole="Theme|Agent|Loc"><w nivId="Luke.4¡626">Galilee</w></entityType>
+<entityType type="place"
+sameAs="http://www.wikidata.org/entity/Q83241" referenceType="name"
+id="" uuid="" semanticClauseRole="Theme|Agent|Loc">
+<w nivId="Luke.4¡626">Galilee</w>
+</entityType>
 <pc>,</pc>
 <w nivId="Luke.4¡627">and</w>
 <w nivId="Luke.4¡628">on</w>
@@ -804,7 +911,7 @@
 <w nivId="Luke.4¡667">his</w>
 <w nivId="Luke.4¡668">voice</w>
 <pc>,</pc>
-<milestone unit="verse" id="Luke.4.34" />“
+<milestone unit="verse" id="Luke.4.34" />“ 
 <w nivId="Luke.4¡669">Go</w>
 <w nivId="Luke.4¡670">away</w>
 <pc>!</pc>
@@ -815,9 +922,18 @@
 <w nivId="Luke.4¡675">with</w>
 <w nivId="Luke.4¡676">us</w>
 <pc>,</pc>
-<entityType type="supremeDeity" sameAs="http://www.wikidata.org/entity/Q302" referenceType="name" id="" uuid="" semanticClauseRole="Theme|Agent|Loc"><w nivId="Luke.4¡677">Jesus</w></entityType>
+<entityType type="supremeDeity"
+sameAs="http://www.wikidata.org/entity/Q302" referenceType="name"
+id="" uuid="" semanticClauseRole="Theme|Agent|Loc">
+<w nivId="Luke.4¡677">Jesus</w>
+</entityType>
 <w nivId="Luke.4¡678">of</w>
-<entityType type="place" sameAs="http://www.wikidata.org/entity/Q430776" referenceType="name" id="" uuid="" semanticClauseRole="Theme|Agent|Loc"><w nivId="Luke.4¡679">Nazareth</w></entityType>
+<entityType type="place"
+sameAs="http://www.wikidata.org/entity/Q430776"
+referenceType="name" id="" uuid=""
+semanticClauseRole="Theme|Agent|Loc">
+<w nivId="Luke.4¡679">Nazareth</w>
+</entityType>
 <pc>?</pc>
 <w nivId="Luke.4¡680">Have</w>
 <w nivId="Luke.4¡681">you</w>
@@ -837,15 +953,19 @@
 <w nivId="Luke.4¡693">One</w>
 <w nivId="Luke.4¡694">of</w>
 <w nivId="Luke.4¡695">God</w>
-<pc>!</pc>”
-<milestone unit="verse" id="Luke.4.35" />“
+<pc>!</pc>” 
+<milestone unit="verse" id="Luke.4.35" />“ 
 <w nivId="Luke.4¡696">Be</w>
 <w nivId="Luke.4¡697">quiet</w>
 <pc>!</pc>” 
-<entityType type="supremeDeity" sameAs="http://www.wikidata.org/entity/Q302" referenceType="name" id="" uuid="" semanticClauseRole="Theme|Agent|Loc"><w nivId="Luke.4¡698">Jesus</w></entityType>
+<entityType type="supremeDeity"
+sameAs="http://www.wikidata.org/entity/Q302" referenceType="name"
+id="" uuid="" semanticClauseRole="Theme|Agent|Loc">
+<w nivId="Luke.4¡698">Jesus</w>
+</entityType>
 <w nivId="Luke.4¡699">said</w>
 <w nivId="Luke.4¡700">sternly</w>
-<pc>.</pc>“
+<pc>.</pc>“ 
 <w nivId="Luke.4¡701">Come</w>
 <w nivId="Luke.4¡702">out</w>
 <w nivId="Luke.4¡703">of</w>
@@ -879,7 +999,7 @@
 <w nivId="Luke.4¡728">to</w>
 <w nivId="Luke.4¡729">each</w>
 <w nivId="Luke.4¡730">other</w>
-<pc>,</pc>“
+<pc>,</pc>“ 
 <w nivId="Luke.4¡731">What</w>
 <w nivId="Luke.4¡732">words</w>
 <w nivId="Luke.4¡733">these</w>
@@ -911,11 +1031,14 @@
 <w nivId="Luke.4¡756">the</w>
 <w nivId="Luke.4¡757">surrounding</w>
 <w nivId="Luke.4¡758">area</w>
-<pc>.</pc>
-</discourseEpisode>
+<pc>.</pc></discourseEpisode>
 <discourseEpisode id="4">
 <milestone unit="verse" id="Luke.4.38" />
-<entityType type="supremeDeity" sameAs="http://www.wikidata.org/entity/Q302" referenceType="name" id="" uuid="" semanticClauseRole="Theme|Agent|Loc"><w nivId="Luke.4¡759">Jesus</w></entityType>
+<entityType type="supremeDeity"
+sameAs="http://www.wikidata.org/entity/Q302" referenceType="name"
+id="" uuid="" semanticClauseRole="Theme|Agent|Loc">
+<w nivId="Luke.4¡759">Jesus</w>
+</entityType>
 <w nivId="Luke.4¡760">left</w>
 <w nivId="Luke.4¡761">the</w>
 <w nivId="Luke.4¡762">synagogue</w>
@@ -925,11 +1048,25 @@
 <w nivId="Luke.4¡766">the</w>
 <w nivId="Luke.4¡767">home</w>
 <w nivId="Luke.4¡768">of</w>
+<entityType type="person"
+sameAs="http://www.wikidata.org/entity/Q33923" referenceType="name"
+id="" uuid="" semanticClauseRole="Theme|Agent|Loc">
 <w nivId="Luke.4¡769">Simon</w>
+</entityType>
 <pc>.</pc>
 <w nivId="Luke.4¡770">Now</w>
+<entityType type="person"
+sameAs="http://www.wikidata.org/entity/Q23581940"
+referenceType="familialRelationship" id="" uuid=""
+semanticClauseRole="Theme|Agent|Loc">
+<entityType type="person"
+sameAs="http://www.wikidata.org/entity/Q23581940"
+referenceType="name" id="" uuid=""
+semanticClauseRole="Theme|Agent|Loc">
 <w nivId="Luke.4¡771">Simon's</w>
-<w nivId="Luke.4¡772">mother¡in¡law</w>
+</entityType>
+<w nivId="Luke.4¡772">mother-in-law</w>
+</entityType>
 <w nivId="Luke.4¡773">was</w>
 <w nivId="Luke.4¡774">suffering</w>
 <w nivId="Luke.4¡775">from</w>
@@ -940,7 +1077,11 @@
 <w nivId="Luke.4¡779">and</w>
 <w nivId="Luke.4¡780">they</w>
 <w nivId="Luke.4¡781">asked</w>
-<entityType type="supremeDeity" sameAs="http://www.wikidata.org/entity/Q302" referenceType="name" id="" uuid="" semanticClauseRole="Theme|Agent|Loc"><w nivId="Luke.4¡782">Jesus</w></entityType>
+<entityType type="supremeDeity"
+sameAs="http://www.wikidata.org/entity/Q302" referenceType="name"
+id="" uuid="" semanticClauseRole="Theme|Agent|Loc">
+<w nivId="Luke.4¡782">Jesus</w>
+</entityType>
 <w nivId="Luke.4¡783">to</w>
 <w nivId="Luke.4¡784">help</w>
 <w nivId="Luke.4¡785">her</w>
@@ -981,7 +1122,11 @@
 <w nivId="Luke.4¡813">people</w>
 <w nivId="Luke.4¡814">brought</w>
 <w nivId="Luke.4¡815">to</w>
-<entityType type="supremeDeity" sameAs="http://www.wikidata.org/entity/Q302" referenceType="name" id="" uuid="" semanticClauseRole="Theme|Agent|Loc"><w nivId="Luke.4¡816">Jesus</w></entityType>
+<entityType type="supremeDeity"
+sameAs="http://www.wikidata.org/entity/Q302" referenceType="name"
+id="" uuid="" semanticClauseRole="Theme|Agent|Loc">
+<w nivId="Luke.4¡816">Jesus</w>
+</entityType>
 <w nivId="Luke.4¡817">all</w>
 <w nivId="Luke.4¡818">who</w>
 <w nivId="Luke.4¡819">had</w>
@@ -1013,7 +1158,7 @@
 <w nivId="Luke.4¡840">people</w>
 <pc>,</pc>
 <w nivId="Luke.4¡841">shouting</w>
-<pc>,</pc>“
+<pc>,</pc>“ 
 <w nivId="Luke.4¡842">You</w>
 <w nivId="Luke.4¡843">are</w>
 <w nivId="Luke.4¡844">the</w>
@@ -1038,14 +1183,22 @@
 <w nivId="Luke.4¡861">knew</w>
 <w nivId="Luke.4¡862">he</w>
 <w nivId="Luke.4¡863">was</w>
+<entityType type="person"
+sameAs="http://www.wikidata.org/entity/Q302" referenceType="title"
+id="" uuid="" semanticClauseRole="Theme|Agent|Loc">
 <w nivId="Luke.4¡864">the</w>
 <w nivId="Luke.4¡865">Messiah</w>
+</entityType>
 <pc>.</pc>
 <milestone unit="verse" id="Luke.4.42" />
 <w nivId="Luke.4¡866">At</w>
 <w nivId="Luke.4¡867">daybreak</w>
 <pc>,</pc>
-<entityType type="supremeDeity" sameAs="http://www.wikidata.org/entity/Q302" referenceType="name" id="" uuid="" semanticClauseRole="Theme|Agent|Loc"><w nivId="Luke.4¡868">Jesus</w></entityType>
+<entityType type="supremeDeity"
+sameAs="http://www.wikidata.org/entity/Q302" referenceType="name"
+id="" uuid="" semanticClauseRole="Theme|Agent|Loc">
+<w nivId="Luke.4¡868">Jesus</w>
+</entityType>
 <w nivId="Luke.4¡869">went</w>
 <w nivId="Luke.4¡870">out</w>
 <w nivId="Luke.4¡871">to</w>
@@ -1081,7 +1234,7 @@
 <w nivId="Luke.4¡897">But</w>
 <w nivId="Luke.4¡898">he</w>
 <w nivId="Luke.4¡899">said</w>
-<pc>,</pc>“
+<pc>,</pc>“ 
 <w nivId="Luke.4¡900">I</w>
 <w nivId="Luke.4¡901">must</w>
 <w nivId="Luke.4¡902">proclaim</w>
@@ -1117,7 +1270,11 @@
 <w nivId="Luke.4¡929">the</w>
 <w nivId="Luke.4¡930">synagogues</w>
 <w nivId="Luke.4¡931">of</w>
-<entityType type="place" sameAs="http://www.wikidata.org/entity/Q1003997" referenceType="name" id="" uuid="" semanticClauseRole="Theme|Agent|Loc"><w nivId="Luke.4¡932">Judea</w></entityType>
-<pc>.</pc>
-</discourseEpisode>
+<entityType type="place"
+sameAs="http://www.wikidata.org/entity/Q1003997"
+referenceType="name" id="" uuid=""
+semanticClauseRole="Theme|Agent|Loc">
+<w nivId="Luke.4¡932">Judea</w>
+</entityType>
+<pc>.</pc></discourseEpisode>
 </corpus>

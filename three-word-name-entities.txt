@@ -1,0 +1,3 @@
+description place synagogue at Capernaum http://www.wikidata.org/entity/Q2916829
+description place synagogue at Nazareth http://www.wikidata.org/entity/Q7661936
+description person Naaman the Syrian http://www.wikidata.org/entity/Q126778

@@ -59,6 +59,9 @@ sed -e '/<pc>\[\n\]<\/pc>/d' -i numbered-text.xml
 sed -e "s/+/\./g" -i numbered-text.xml
 sed -e "s/-/¡/g" -i numbered-text.xml
 
+#I used ¡ to put a mark between the verse number and the word number of the chapter, but the expression I used is a bit greedy. This fixes that.
+sed -e "s/mother¡in¡law/mother-in-law/g" -i numbered-text.xml
+
 #Lets put in the correct XML declaration
 sed  -i '1i <?xml version="1.0" encoding="UTF-8"?>' numbered-text.xml
 
@@ -95,62 +98,52 @@ sed -e '/<\/corpus>/i <\/discourseEpisode>' -i numbered-text.xml
 
 #Let's do some entity Identification.
 
-#xmlstarlet ed --insert "///w[text()='Jesus']" --type attr -n thingType -v person numbered-text.xml > numbered-text2.xml
+# Three word Entities
+while read -r referenceType TYPE ARG BARG NAME URI; do  sed -re "N;s#(<w nivId=\"Luke.[^\"]+\">$ARG</w>\n <w nivId=\"Luke.[^\"]+\">$BARG</w>\n<w nivId=\"Luke.[^\"]+\">$NAME</w>)#<entityType type=\"$TYPE\" sameAs=\"$URI\" referenceType=\"$referenceType\" id=\"\" uuid=\"\" semanticClauseRole=\"Theme|Agent|Loc\">\1</entityType>#g" -i numbered-text.xml ; done < three-word-name-entities.txt
 
+# Need to fix: description place the high place(mountain)
+#Son of God
+#Holy one of God
+#Jeuss of Nazareth
+#Elisha the prophet
 
-#xmlstarlet ed --insert "///w[not(@person)]" --type attr -n person -v foobar numbered-text.xml > numbered-text2.xml
+# Two word named entites
 
-#for ///w{Jesus}
+while read -r referenceType TYPE ARG NAME URI; do  sed -re "N;s#(<w nivId=\"Luke.[^\"]+\">$ARG</w>\n<w nivId=\"Luke.[^\"]+\">$NAME</w>)#<entityType type=\"$TYPE\" sameAs=\"$URI\" referenceType=\"$referenceType\" id=\"\" uuid=\"\" semanticClauseRole=\"Theme|Agent|Loc\">\1</entityType>#g" -i numbered-text.xml ; done < two-word-name-entities.txt
+
+# Need to fix:
+#celestialBeing impure spirits http://www.wikidata.org/entity/Q7882854 (unclean)
+#the land --> Israel kingdom
+#the temple
+#the Spirit
+#the wilderness
+
+# single word named entites
 
 #TYPES deity|supremeDeity|human|animal|celestialBeing|place|celestialEntity|idea|substance
 
 while read -r referenceType TYPE NAME URI; do  sed -re "s#(<w nivId=\")(Luke.[^\"]+)(\">$NAME</w>)#<entityType type=\"$TYPE\" sameAs=\"$URI\" referenceType=\"$referenceType\" id=\"\" uuid=\"\" semanticClauseRole=\"Theme|Agent|Loc\">\1\2\3</entityType>#g" -i numbered-text.xml ; done < single-word-name-entities.txt
 
+#Need to fix:
+#celestialBeing demons http://www.wikidata.org/entity/Q177413
+#celestialBeing demon http://www.wikidata.org/entity/Q177413
+#Physician, Sabbath, Leoporsy
+
+# single word named entites which are part of a multi-word concept
+
+while read -r referenceType TYPE NAME URI; do  sed -re "s#(<w nivId=\")(Luke.[^\"]+)(\">$NAME</w>)#<entityType type=\"$TYPE\" sameAs=\"$URI\" referenceType=\"$referenceType\" id=\"\" uuid=\"\" semanticClauseRole=\"Theme|Agent|Loc\">\1\2\3</entityType>#g" -i numbered-text.xml ; done < possessive-word-name-entities.txt
+
+
+
 tidy -m -xml -utf8 -q numbered-text.xml
 exit 1
-
-sed -re 's#(<w nivId=")(Luke.[^"]+)(">Jesus</w>)#<entityType type="deity|supremeDeity|human|animal|celestialBeing|place|celestialEntity|idea|substance" sameAs="http://www.wikidata.org/entity/Q302" referenceType="name|title|adposition|" id="" uuid="" semanticClauseRole="Theme|Agent|Loc">\1\2\3</entityType>#g' -i numbered-text.xml
-
-<entityType="deity|supremeDeity|human|animal|celestialBeing|place|celestialEntity|idea|substance" sameAs="http://www.wikidata.org/entity/Q302" referenceType="name|title|adposition|" id="" uuid="" semanticClauseRole="Theme|Agent|Loc"></entityType>
-
-
-sed 's/(<w nivId=")(Luke.[^"]+)(")(>)(Jesus</w>)/ \1\2\3 sometext \4\5/g'
-<w nivId="Luke.4¡1">Jesus</w>
-
-sed 's#(<w nivId=")(Luke.[^"]+)(">Jesus</w>)#<entityType="deity|supremeDeity|human|animal|celestialBeing|place|celestialEntity|idea|substance" sameAs="http://www.wikidata.org/entity/Q302" referenceType="name|title|adposition|" id="" uuid="" semanticClauseRole="Theme|Agent|Loc"> \1\2\3 </entityType>#g'
-<w nivId="Luke.4¡1">Jesus</w>
 
 <clause id="">
 <discussant role="narrator" person="Luke" id="" sameAs="http://www.wikidata.org/entity/Q128538">
 
 <wordType="referer"></
-#Lets mark up some people names
-Holy Spirit: http://www.wikidata.org/entity/Q37302
-Luke: http://www.wikidata.org/entity/Q128538
-Jesus: http://www.wikidata.org/entity/Q302
-Elija: http://www.wikidata.org/entity/Q133507
- Elisha: http://www.wikidata.org/entity/Q206238
- Simon (peter): http://www.wikidata.org/entity/Q33923
- Simon's Mother inlaw: http://www.wikidata.org/entity/Q23581940
-[Naaman] the Syrian: http://www.wikidata.org/entity/Q126778
-[Joseph]’s son: http://www.wikidata.org/entity/Q128267
-The  Devil: http://www.wikidata.org/entity/Q6674
-# ori sed -e 's/\[\([a-zA-Z ]*\)\]/\\macro{\1}/g'
-#Lets mark up some places
-Capernaum: http://www.wikidata.org/entity/Q59174
-Galilee: http://www.wikidata.org/entity/Q83241
-Nazareth: http://www.wikidata.org/entity/Q430776
-Jerusalem: http://www.wikidata.org/entity/Q1218
-Judea (Roman Province): http://www.wikidata.org/entity/Q1003997
-[Zarephath: http://www.wikidata.org/entity/Q616837] in the region of [Sidon: https://www.wikidata.org/wiki/Q163490]
-Specific Places without a name:
-the Jordan (river): http://www.wikidata.org/entity/Q40059
-the wilderness(Mount Quarantania): http://www.wikidata.org/entity/Q10742877
-synagogue at Capernaum: http://www.wikidata.org/entity/Q2916829
-synagogue at Nazareth: http://www.wikidata.org/entity/Q7661936
-the temple
-the high place(mountain)
 
+# I need to decide what to do with embeded references to people such as Joseph's son which mentiones joseph but referes to Jesus, and Simon's monther-in-law Thees are possive in Englsh I could do possives all at one time.
 
 
 # or is animacy really the distinuisnig feature here? These might be dictic referencers.
@@ -163,3 +156,9 @@ He, Him, You, Your, Yourself, I, me, his, they, us, their
 #Lets mark up some referencer words related to inanimate entites
 where, this, here
 # ori sed -e 's/\[\([a-zA-Z ]*\)\]/\\macro{\1}/g'
+
+#xmlstarlet ed --insert "///w[text()='Jesus']" --type attr -n thingType -v person numbered-text.xml > numbered-text2.xml
+
+#xmlstarlet ed --insert "///w[not(@person)]" --type attr -n person -v foobar numbered-text.xml > numbered-text2.xml
+
+#for ///w{Jesus}
